@@ -58,35 +58,65 @@ home_dir = os.path.join(
     'rossoshrealty',
     'familyan'
     )
-
-for obj in objs:
-    photo_path = search(
-        os.path.join(
-            'Данные для работы',
-            'Фотобанк',
-            '{}'.format(objs[obj]['Адрес'])
-            )
-        )
-
-    bd_path = search(
-        os.path.join(
-            'Данные для работы',
-            'БД',
-            '{}.json'.format(objs[obj]['Адрес'])
-            )
-        )
-
-    dist_path = os.path.abspath(
-        search(
+list_of_dirs = [
+    'images',
+    'bd',
+]
+# Создаём внутри корневого каталога сайта рабочие папки
+def check_dirs():
+    for dirs in list_of_dirs:
+        if not os.path.exists(
+            os.path.join(
+                home_dir,
+                'static',
+                dirs
+                )
+            ):
+                os.mkdir(
+                    os.path.join(
+                        home_dir,
+                        'static',
+                        dirs
+                        )
+                    )
+def copy_inf():
+    for obj in objs:
+        photo_path = search(
             os.path.join(
                 'Данные для работы',
-                'Сайт',
-                'bd'
+                'Фотобанк',
+                '{}'.format(objs[obj]['Адрес'])
                 )
             )
-        )
 
-    for dir in os.listdir(photo_path):
-        for file in os.listdir(search(os.path.join(photo_path, dir))):
-            print(file)
-    # shutil.copy(bd_path, dist_path)
+        bd_path = search(
+            os.path.join(
+                'Данные для работы',
+                'БД',
+                '{}.json'.format(objs[obj]['Адрес'])
+                )
+            )
+
+        dist_path = os.path.abspath(
+            search(
+                os.path.join(
+                    home_dir,
+                    'static',
+                    'bd'
+                    )
+                )
+            )
+
+
+        for dir in os.listdir(photo_path):
+            for file in os.listdir(
+                search(
+                    os.path.join(
+                        photo_path, 
+                        dir
+                        )
+                    )[2, 4]
+                ):
+                    print(file)
+        # shutil.copy(bd_path, dist_path)
+check_dirs()
