@@ -64,8 +64,8 @@ list_of_dirs = [
     'bd',
 
 ]
-class Info():
-# Создаём внутри корневого каталога сайта рабочие папки
+class Basic():
+    # Создаём внутри корневого каталога сайта рабочие папки
     def check_dirs(dirs):
         for dir in dirs:
             if not os.path.exists(
@@ -82,10 +82,50 @@ class Info():
                             dir
                             )
                         )
-# Копируем необходимую информацию в коневой каталог сайта
-    def copy_inf(objects):
+            # else:
+            #     os.rmdir(
+            #         os.path.join(
+            #             home_dir,
+            #             'static',
+            #             dir
+            #             )
+            #         )
+
+            #     os.mkdir(
+            #         os.path.join(
+            #             home_dir,
+            #             'static',
+            #             dir
+            #             )
+            #         )
+class Info():
+    def copy_bd(objects):
         for obj in objects:
-            Info.check_dirs([
+            dist_path_bd = os.path.abspath(
+                search(
+                    os.path.join(
+                        home_dir,
+                        'static',
+                        'bd'
+                        )
+                    )
+                )
+
+            bd_path = search(
+                os.path.join(
+                    'Данные для работы',
+                    'БД',
+                    '{}.json'.format(objs[obj]['Адрес'])
+                    )
+                )
+            # pathlib.Path(dist_path_bd).rmdir()
+
+            shutil.copy(bd_path, dist_path_bd)
+
+
+    def copy_photo(objects):
+        for obj in objects:
+            Basic.check_dirs([
                 os.path.join(
                     home_dir,
                     'static',
@@ -102,23 +142,6 @@ class Info():
                     '{}'.format(objs[obj]['Адрес'])
                     )
                 )
-
-            bd_path = search(
-                os.path.join(
-                    'Данные для работы',
-                    'БД',
-                    '{}.json'.format(objs[obj]['Адрес'])
-                    )
-                )
-            dist_path_bd = os.path.abspath(
-                search(
-                    os.path.join(
-                        home_dir,
-                        'static',
-                        'bd'
-                        )
-                    )
-                )
             dist_path_photo = os.path.abspath(
                 search(
                     os.path.join(
@@ -130,15 +153,25 @@ class Info():
                         )
                     )
                 )
-# Копируем БД в dist_path_bd
-            shutil.copy(bd_path, dist_path_bd)
-# Копируем фотографии в dist_path_photo
+
             for dirs in pathlib.Path(photo_path).iterdir():
+                files = []
+                num = 0
+
                 if dirs.is_dir():
                     for file in pathlib.Path(dirs).iterdir():
+                        files.append(file)
+
+                    if 'Нефильтрованное' not in dirs.name:
+                        for photo in files[(len(files) // 4) : ((len(files) // 4) + 1)]:
+                            shutil.copy(photo, dist_path_photo)
+                    else:
+                        for photo in files:
+                            shutil.copy(photo, dist_path_photo)
                         # print(dist_path_photo)
-                        shutil.copy(file, dist_path_photo)
+                        # shutil.copy(file, dist_path_photo)
                         
 
-# Info.check_dirs(list_of_dirs)
-Info.copy_inf(objs)
+Basic.check_dirs(list_of_dirs)
+Info.copy_bd(objs)
+Info.copy_photo(objs)
