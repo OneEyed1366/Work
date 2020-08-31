@@ -140,6 +140,13 @@ class Info():
                     '{}'.format(objs[obj]['Адрес'])
                     )
                 )
+            photo_face_path = search(
+                os.path.join(
+                    'Соц.Сети',
+                    '{}'.format(objs[obj]['Адрес']),
+                    'Морда.jpeg'
+                    )
+                )
             dist_path_photo = os.path.abspath(
                 search(
                     os.path.join(
@@ -152,6 +159,8 @@ class Info():
                     )
                 )
 
+            shutil.copy(photo_face_path, dist_path_photo)
+            
             for dirs in pathlib.Path(photo_path).iterdir():
                 files = []
 
