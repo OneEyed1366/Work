@@ -59,7 +59,6 @@ home_dir = os.path.join(
     'familyan'
     )
 list_of_dirs = [
-    'images',
     os.path.join('images', 'Объекты'),
     'bd',
 
@@ -82,23 +81,25 @@ class Basic():
                             dir
                             )
                         )
-            # else:
-            #     os.rmdir(
-            #         os.path.join(
-            #             home_dir,
-            #             'static',
-            #             dir
-            #             )
-            #         )
+            else:
+                shutil.rmtree(
+                    os.path.join(
+                        home_dir,
+                        'static',
+                        dir
+                        )
+                    )
 
-            #     os.mkdir(
-            #         os.path.join(
-            #             home_dir,
-            #             'static',
-            #             dir
-            #             )
-            #         )
+                os.mkdir(
+                    os.path.join(
+                        home_dir,
+                        'static',
+                        dir
+                        )
+                    )
+#Совокупность функций для работы с информацией для сайта
 class Info():
+# Функция копирования файлов БД в каталог dist_path_bd
     def copy_bd(objects):
         for obj in objects:
             dist_path_bd = os.path.abspath(
@@ -110,7 +111,6 @@ class Info():
                         )
                     )
                 )
-
             bd_path = search(
                 os.path.join(
                     'Данные для работы',
@@ -118,11 +118,9 @@ class Info():
                     '{}.json'.format(objs[obj]['Адрес'])
                     )
                 )
-            # pathlib.Path(dist_path_bd).rmdir()
 
             shutil.copy(bd_path, dist_path_bd)
-
-
+# Функция копирования Фото в каталог dist_path_photo
     def copy_photo(objects):
         for obj in objects:
             Basic.check_dirs([
