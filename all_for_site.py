@@ -156,21 +156,20 @@ class Info():
 
             for dirs in pathlib.Path(photo_path).iterdir():
                 files = []
-                num = 0
 
                 if dirs.is_dir():
                     for file in pathlib.Path(dirs).iterdir():
-                        files.append(file)
-
+                        if file.stat().st_size > 0 and file.exists():
+                            files.append(file)
+                        
                     if 'Нефильтрованное' not in dirs.name:
-                        for photo in files[(len(files) // 4) : ((len(files) // 4) + 1)]:
+                        for photo in files[0 : len(files) // 2 + 1 : 2]:
+                            # print(photo)
                             shutil.copy(photo, dist_path_photo)
                     else:
                         for photo in files:
+                            # print(photo)
                             shutil.copy(photo, dist_path_photo)
-                        # print(dist_path_photo)
-                        # shutil.copy(file, dist_path_photo)
-                        
 
 Basic.check_dirs(list_of_dirs)
 Info.copy_bd(objs)
