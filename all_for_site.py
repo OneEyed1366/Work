@@ -59,44 +59,33 @@ home_dir = os.path.join(
     'familyan'
     )
 list_of_dirs = [
-    os.path.join('images', 'Объекты'),
-    'bd',
+    os.path.join(home_dir, 'static', 'images', 'Объекты'),
+    os.path.join(home_dir, 'static', 'images', 'Команда'),
+    os.path.join(home_dir, 'static', 'bd'),
 
 ]
+team = [
+    'Агент',
+    'Юрист'
+]
 class Basic():
+    def check_files(paths):
+        site_dirs = [dir for dir in pathlib.Path(os.path.join(home_dir, 'static', 'images', 'Объекты')).iterdir() if dir.is_dir()]
+
+        for path in paths:
+
+            original_dirs = [dir for dir in pathlib.Path().iterdir() if dir.is_dir()]
+
+            print(original_dirs)
+            
     # Создаём внутри корневого каталога сайта рабочие папки
     def check_dirs(dirs):
         for dir in dirs:
-            if not os.path.exists(
-                os.path.join(
-                    home_dir,
-                    'static',
-                    dir
-                    )
-                ):
-                    os.mkdir(
-                        os.path.join(
-                            home_dir,
-                            'static',
-                            dir
-                            )
-                        )
+            if not os.path.exists(dir):
+                os.mkdir(dir)
             else:
-                shutil.rmtree(
-                    os.path.join(
-                        home_dir,
-                        'static',
-                        dir
-                        )
-                    )
-
-                os.mkdir(
-                    os.path.join(
-                        home_dir,
-                        'static',
-                        dir
-                        )
-                    )
+                shutil.rmtree(dir)
+                os.mkdir(dir)
 #Совокупность функций для работы с информацией для сайта
 class Info():
 # Функция копирования файлов БД в каталог dist_path_bd
@@ -121,7 +110,30 @@ class Info():
 
             shutil.copy(bd_path, dist_path_bd)
 # Функция копирования Фото в каталог dist_path_photo
-    def copy_photo(objects):
+    def copy_photo(objects, team):
+        for member in team:
+            member_face_path = search(
+                os.path.join(
+                    'Данные для работы',
+                    'Фотобанк',
+                    'Сотрудники',
+                    '{}.jpeg'.format(member)
+                    )
+                )
+
+            dist_member_path = os.path.abspath(
+                search(
+                    os.path.join(
+                        home_dir,
+                        'static',
+                        'images',
+                        'Команда'
+                        )
+                    )
+                )
+
+            shutil.copy(member_face_path, dist_member_path)
+
         for obj in objects:
             Basic.check_dirs([
                 os.path.join(
@@ -180,4 +192,5 @@ class Info():
 
 Basic.check_dirs(list_of_dirs)
 Info.copy_bd(objs)
-Info.copy_photo(objs)
+Info.copy_photo(objs, team)
+# Basic.check_files(list_of_dirs)
