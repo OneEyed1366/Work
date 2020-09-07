@@ -62,30 +62,22 @@ list_of_dirs = [
     os.path.join(home_dir, 'static', 'images', 'Объекты'),
     os.path.join(home_dir, 'static', 'images', 'Команда'),
     os.path.join(home_dir, 'static', 'bd'),
-
 ]
 team = [
     'Агент',
     'Юрист'
 ]
 class Basic():
-    def check_files(paths):
-        site_dirs = [dir for dir in pathlib.Path(os.path.join(home_dir, 'static', 'images', 'Объекты')).iterdir() if dir.is_dir()]
-
-        for path in paths:
-
-            original_dirs = [dir for dir in pathlib.Path().iterdir() if dir.is_dir()]
-
-            print(original_dirs)
-            
     # Создаём внутри корневого каталога сайта рабочие папки
-    def check_dirs(dirs):
-        for dir in dirs:
-            if not os.path.exists(dir):
-                os.mkdir(dir)
+    def check_dirs(paths):
+        for path in paths:
+            if not os.path.exists(path):
+                os.mkdir(path)
+            # else:
+            #     print('{0} - OK'.format(path))
             else:
-                shutil.rmtree(dir)
-                os.mkdir(dir)
+                shutil.rmtree(path)
+                os.mkdir(path)
 #Совокупность функций для работы с информацией для сайта
 class Info():
 # Функция копирования файлов БД в каталог dist_path_bd
@@ -108,7 +100,8 @@ class Info():
                     )
                 )
 
-            shutil.copy(bd_path, dist_path_bd)
+            if not os.path.exists(dist_path_bd):
+                shutil.copy(bd_path, dist_path_bd)
 # Функция копирования Фото в каталог dist_path_photo
     def copy_photo(objects, team):
         for member in team:
@@ -131,8 +124,8 @@ class Info():
                         )
                     )
                 )
-
-            shutil.copy(member_face_path, dist_member_path)
+            if not os.path.exists(dist_member_path):
+                shutil.copy(member_face_path, dist_member_path)
 
         for obj in objects:
             Basic.check_dirs([
@@ -171,16 +164,13 @@ class Info():
                     )
                 )
 
+            # if not os.path.exists(photo_face_path):
             shutil.copy(photo_face_path, dist_path_photo)
             
             for dirs in pathlib.Path(photo_path).iterdir():
-                files = []
-
                 if dirs.is_dir():
-                    for file in pathlib.Path(dirs).iterdir():
-                        if file.stat().st_size > 0 and file.exists():
-                            files.append(file)
-                        
+                    files = [file for file in pathlib.Path(dirs).iterdir() if file.stat().st_size > 0 and file.exists()]
+
                     if 'Нефильтрованное' not in dirs.name:
                         for photo in files[0 : len(files) // 2 + 1 : 2]:
                             # print(photo)
@@ -193,4 +183,3 @@ class Info():
 Basic.check_dirs(list_of_dirs)
 Info.copy_bd(objs)
 Info.copy_photo(objs, team)
-# Basic.check_files(list_of_dirs)
