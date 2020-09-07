@@ -68,7 +68,12 @@ team = [
     'Юрист'
 ]
 class Basic():
-    # Создаём внутри корневого каталога сайта рабочие папки
+# Функция проверки последнего изменения файла каталога
+    def check_change_in_catalog(path):
+        # hist_date = 
+        catalog_date = os.path.getmtime(path):
+        
+# Создаём внутри корневого каталога сайта рабочие папки
     def check_dirs(paths):
         for path in paths:
             if not os.path.exists(path):
