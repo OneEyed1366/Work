@@ -62,6 +62,7 @@ list_of_dirs = [
     os.path.join(home_dir, 'static', 'images', 'Объекты'),
     os.path.join(home_dir, 'static', 'images', 'Команда'),
     os.path.join(home_dir, 'static', 'bd'),
+    os.path.join(home_dir, 'static', 'texts'),
 ]
 team = [
     'Агент',
@@ -69,9 +70,9 @@ team = [
 ]
 class Basic():
 # Функция проверки последнего изменения файла каталога
-    def check_change_in_catalog(path):
-        # hist_date = 
-        catalog_date = os.path.getmtime(path):
+    # def check_change_in_catalog(path):
+    #     # hist_date = 
+    #     catalog_date = os.path.getmtime(path):
         
 # Создаём внутри корневого каталога сайта рабочие папки
     def check_dirs(paths):
@@ -85,6 +86,27 @@ class Basic():
                 os.mkdir(path)
 #Совокупность функций для работы с информацией для сайта
 class Info():
+    def copy_text(objs):
+        for obj in objs:
+            dist_path_text = os.path.abspath(
+                search(
+                    os.path.join(
+                        home_dir,
+                        'static',
+                        'texts'
+                        )
+                    )
+                )
+
+            text_path = search(
+                os.path.join(
+                    'Данные для работы',
+                    'Авито',
+                    '{0}.txt'.format(objs[obj]['Адрес'])
+                    )
+                )
+
+            shutil.copy(text_path, dist_path_text)
 # Функция копирования файлов БД в каталог dist_path_bd
     def copy_bd(objects):
         for obj in objects:
@@ -105,8 +127,8 @@ class Info():
                     )
                 )
 
-            if not os.path.exists(dist_path_bd):
-                shutil.copy(bd_path, dist_path_bd)
+            # if not os.path.exists(dist_path_bd):
+            shutil.copy(bd_path, dist_path_bd)
 # Функция копирования Фото в каталог dist_path_photo
     def copy_photo(objects, team):
         for member in team:
@@ -129,8 +151,8 @@ class Info():
                         )
                     )
                 )
-            if not os.path.exists(dist_member_path):
-                shutil.copy(member_face_path, dist_member_path)
+            # if not os.path.exists(dist_member_path):
+            shutil.copy(member_face_path, dist_member_path)
 
         for obj in objects:
             Basic.check_dirs([
@@ -139,7 +161,7 @@ class Info():
                     'static',
                     'images',
                     'Объекты',
-                    '{}'.format(objs[obj]['Адрес'])
+                    obj
                     )
                 ])
 
@@ -147,13 +169,13 @@ class Info():
                 os.path.join(
                     'Данные для работы',
                     'Фотобанк',
-                    '{}'.format(objs[obj]['Адрес'])
+                    objs[obj]['Адрес']
                     )
                 )
             photo_face_path = search(
                 os.path.join(
                     'Соц.Сети',
-                    '{}'.format(objs[obj]['Адрес']),
+                    objs[obj]['Адрес'],
                     'Морда.jpeg'
                     )
                 )
@@ -164,7 +186,7 @@ class Info():
                         'static',
                         'images',
                         'Объекты',
-                        '{}'.format(objs[obj]['Адрес'])
+                        obj
                         )
                     )
                 )
@@ -180,11 +202,12 @@ class Info():
                         for photo in files[0 : len(files) // 2 + 1 : 2]:
                             # print(photo)
                             shutil.copy(photo, dist_path_photo)
-                    else:
-                        for photo in files:
-                            # print(photo)
-                            shutil.copy(photo, dist_path_photo)
+                    # else:
+                    #     for photo in files:
+                    #         # print(photo)
+                    #         shutil.copy(photo, dist_path_photo)
 
 Basic.check_dirs(list_of_dirs)
+Info.copy_text(objs)
 Info.copy_bd(objs)
 Info.copy_photo(objs, team)
