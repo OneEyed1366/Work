@@ -1,4 +1,5 @@
 from ftplib import FTP
+from PIL import Image
 import os, glob, json, shutil, pathlib
 
 def search(path):
@@ -37,17 +38,6 @@ elif os.sys.platform == 'win32':
             'iCloud~is~workflow~my~workflows'
             )
         )
-        
-        
-with open(
-    os.path.join(
-        'Данные для работы',
-        'Социалочка',
-        'Каталог.json'
-        ), encoding = 'utf-8'
-    ) as f:
-        objs = json.load(f)
-
 home_dir = os.path.join(
     'C:\\',
     'Users',
@@ -64,10 +54,7 @@ list_of_dirs = [
     os.path.join(home_dir, 'static', 'bd'),
     os.path.join(home_dir, 'static', 'texts'),
 ]
-team = [
-    'Агент',
-    'Юрист'
-]
+
 class Basic():
 # Функция проверки последнего изменения файла каталога
     # def check_change_in_catalog(path):
@@ -86,9 +73,30 @@ class Basic():
                 os.mkdir(path)
 #Совокупность функций для работы с информацией для сайта
 class Info():
-    def copy_text(objs):
-        for obj in objs:
-            dist_path_text = os.path.abspath(
+    with open(
+        os.path.join(
+            'Данные для работы',
+            'Социалочка',
+            'Каталог.json'
+            ), encoding = 'utf-8'
+        ) as f:
+            objs = json.load(f)
+    
+    team = [
+        'Агент',
+        'Юрист'
+    ]
+
+    dist_rss = os.path.abspath(
+            search(
+                os.path.join(
+                    home_dir,
+                    'static',
+                    'rss'
+                    )
+                )
+            )
+    dist_texts = os.path.abspath(
                 search(
                     os.path.join(
                         home_dir,
@@ -97,51 +105,16 @@ class Info():
                         )
                     )
                 )
-
-            text_path = search(
+    dist_bd = os.path.abspath(
+            search(
                 os.path.join(
-                    'Данные для работы',
-                    'Авито',
-                    '{0}.txt'.format(objs[obj]['Адрес'])
+                    home_dir,
+                    'static',
+                    'bd'
                     )
                 )
-
-            shutil.copy(text_path, dist_path_text)
-# Функция копирования файлов БД в каталог dist_path_bd
-    def copy_bd(objects):
-        for obj in objects:
-            dist_path_bd = os.path.abspath(
-                search(
-                    os.path.join(
-                        home_dir,
-                        'static',
-                        'bd'
-                        )
-                    )
-                )
-            bd_path = search(
-                os.path.join(
-                    'Данные для работы',
-                    'БД',
-                    '{}.json'.format(objs[obj]['Адрес'])
-                    )
-                )
-
-            # if not os.path.exists(dist_path_bd):
-            shutil.copy(bd_path, dist_path_bd)
-# Функция копирования Фото в каталог dist_path_photo
-    def copy_photo(objects, team):
-        for member in team:
-            member_face_path = search(
-                os.path.join(
-                    'Данные для работы',
-                    'Фотобанк',
-                    'Сотрудники',
-                    '{}.jpeg'.format(member)
-                    )
-                )
-
-            dist_member_path = os.path.abspath(
+            )
+    dist_photo_member = os.path.abspath(
                 search(
                     os.path.join(
                         home_dir,
@@ -151,10 +124,81 @@ class Info():
                         )
                     )
                 )
-            # if not os.path.exists(dist_member_path):
-            shutil.copy(member_face_path, dist_member_path)
 
-        for obj in objects:
+    def rss(self):
+        rss_path = search(
+            os.path.join(
+                'Данные для работы',
+                'Социалочка',
+                'Список RSS каналов.txt'
+                )
+            )
+
+        shutil.copy(rss_path, self.dist_rss)
+
+    def text(self):
+        for obj in self.objs:
+            text_path = search(
+                os.path.join(
+                    'Данные для работы',
+                    'Авито',
+                    '{0}.txt'.format(self.objs[obj]['Адрес'])
+                    )
+                )
+
+            shutil.copy(text_path, self.dist_texts)
+# Функция копирования файлов БД в каталог dist_path_bd
+    def bd(self):
+        catalog = os.path.join(
+            'Данные для работы',
+            'Социалочка',
+            'Каталог.json'
+            )
+        bd_we = search(
+            os.path.join(
+                'Данные для работы',
+                'Социалочка',
+                'Наши ресурсы.json'
+                )
+            )
+        services = search(
+            os.path.join(
+                'Данные для работы',
+                'Социалочка',
+                'Наши услуги.json'
+                )
+            )
+
+        for bd in catalog, bd_we, services:
+            shutil.copy(bd, self.dist_bd)
+
+        for obj in self.objs:
+            bd_path = search(
+                os.path.join(
+                    'Данные для работы',
+                    'БД',
+                    '{}.json'.format(self.objs[obj]['Адрес'])
+                    )
+                )
+
+            # if not os.path.exists(dist_path_bd):
+            shutil.copy(bd_path, self.dist_bd)
+# Функция копирования Фото в каталог dist_path_photo
+    def photo(self):
+        for member in self.team:
+            member_face_path = search(
+                os.path.join(
+                    'Данные для работы',
+                    'Фотобанк',
+                    'Сотрудники',
+                    '{}.jpeg'.format(member)
+                    )
+                )
+
+            # if not os.path.exists(dist_member_path):
+            shutil.copy(member_face_path, self.dist_photo_member)
+
+        for obj in self.objs:
             Basic.check_dirs([
                 os.path.join(
                     home_dir,
@@ -169,13 +213,13 @@ class Info():
                 os.path.join(
                     'Данные для работы',
                     'Фотобанк',
-                    objs[obj]['Адрес']
+                    self.objs[obj]['Адрес']
                     )
                 )
             photo_face_path = search(
                 os.path.join(
                     'Соц.Сети',
-                    objs[obj]['Адрес'],
+                    self.objs[obj]['Адрес'],
                     'Морда.jpeg'
                     )
                 )
@@ -207,7 +251,25 @@ class Info():
                     #         # print(photo)
                     #         shutil.copy(photo, dist_path_photo)
 
-Basic.check_dirs(list_of_dirs)
-Info.copy_text(objs)
-Info.copy_bd(objs)
-Info.copy_photo(objs, team)
+    def ftp(self):
+        base = os.listdir(home_dir)
+
+        ftp_host = 'vh308.timeweb.ru'
+        ftp_user = 'ca45106'
+        ftp_password = 'Tz2k44Z6h6Yo'
+
+        # ftp = FTP(ftp_host, ftp_user, ftp_password)
+        # ftp.cwd('rossoshrealty')
+
+        for dir in base:
+            if os.path.isdir(dir):
+                print(dir)
+
+
+
+# Basic.check_dirs(list_of_dirs)
+# Info().text()
+# Info().rss()
+# Info().bd()
+# Info().photo()
+Info().ftp()
