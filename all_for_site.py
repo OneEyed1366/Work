@@ -252,7 +252,7 @@ class Info():
                     #         shutil.copy(photo, dist_path_photo)
 
     def ftp(self):
-        base = os.listdir(home_dir)
+        base = pathlib.Path(home_dir).iterdir()
 
         ftp_host = 'vh308.timeweb.ru'
         ftp_user = 'ca45106'
@@ -262,8 +262,19 @@ class Info():
         # ftp.cwd('rossoshrealty')
 
         for dir in base:
-            if os.path.isdir(dir):
-                print(dir)
+            if dir.is_dir():
+                for smth in pathlib.Path(dir).iterdir():
+                    if smth.is_dir():
+                        for smth_2 in pathlib.Path(smth).iterdir():
+                            print(smth_2)
+                            if smth_2.is_dir():
+                                for smth_3 in pathlib.Path(smth_2).iterdir():
+                                    print(smth_3)
+                                    if smth_3.is_dir():
+                                        for smth_4 in pathlib.Path(smth_3).iterdir():
+                                            print(smth_4)
+                    else:
+                        print(smth)
 
 
 
