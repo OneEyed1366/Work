@@ -141,11 +141,7 @@ class Info():
                 os.path.join(self.dist_rss, 'rss_list.txt')
             )
     def text(self):
-        number_id = 0
-
         for obj in sorted(self.objs):
-            number_id += 1
-            
             text_path = search(
                 os.path.join(
                     'Данные для работы',
@@ -157,12 +153,10 @@ class Info():
             shutil.copy(text_path, self.dist_texts)
             os.rename(
                 search(os.path.join(self.dist_texts,f'{self.objs[obj]["Адрес"]}.txt')),
-                os.path.join(self.dist_texts, f'{number_id}.txt')
+                os.path.join(self.dist_texts, f'{self.objs[obj]["id"]}.txt')
             )
 # Функция копирования файлов БД в каталог dist_path_bd
     def bd(self):
-        number_id = 0
-
         catalog = {
             'origin': os.path.join('Данные для работы', 'Социалочка', 'Каталог.json'),
             'name': 'Каталог.json',
@@ -186,8 +180,6 @@ class Info():
             )
 
         for obj in sorted(self.objs):
-            number_id += 1
-
             bd_path = search(
                 os.path.join(
                     'Данные для работы',
@@ -200,12 +192,10 @@ class Info():
             shutil.copy(bd_path, self.dist_bd)
             os.rename(
                 search(os.path.join(self.dist_bd, f'{self.objs[obj]["Адрес"]}.json')),
-                os.path.join(self.dist_bd, f'{number_id}.json')
+                os.path.join(self.dist_bd, f'{self.objs[obj]["id"]}.json')
                 )
 # Функция копирования Фото в каталог dist_path_photo
     def photo(self):
-        number_id = 0
-
         for member in self.team:
             member_face_path = search(
                 os.path.join(
@@ -220,8 +210,6 @@ class Info():
             shutil.copy(member_face_path, self.dist_photo_member)
 
         for obj in sorted(self.objs):
-            number_id += 1
-
             Basic().check_dirs([
                 os.path.join(
                     home_dir,
@@ -229,7 +217,7 @@ class Info():
                     'images',
                     'raw',
                     'properties',
-                    f'{number_id}'
+                    f'{self.objs[obj]["id"]}'
                     )
                 ])
 
@@ -255,7 +243,7 @@ class Info():
                         'images',
                         'raw',
                         'properties',
-                        f'{number_id}'
+                        f'{self.objs[obj]["id"]}'
                         )
                     )
                 )
