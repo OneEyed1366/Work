@@ -49,11 +49,11 @@ home_dir = os.path.join(
     'familyan'
     )
 list_of_dirs = [
-    os.path.join(home_dir, 'media', 'raw', 'images', 'properties'),
-    os.path.join(home_dir, 'media', 'raw', 'images', 'we'),
-    os.path.join(home_dir, 'media', 'raw', 'rss'),
-    os.path.join(home_dir, 'media', 'raw', 'bd'),
-    os.path.join(home_dir, 'media', 'raw', 'texts'),
+    os.path.join(home_dir, 'media', 'images', 'raw', 'properties'),
+    os.path.join(home_dir, 'media', 'images', 'we'),
+    os.path.join(home_dir, 'media', 'rss'),
+    os.path.join(home_dir, 'media', 'bd'),
+    os.path.join(home_dir, 'media', 'texts'),
 ]
 
 class Basic():
@@ -93,7 +93,6 @@ class Info():
                 os.path.join(
                     home_dir,
                     'media',
-                    'raw',
                     'rss'
                     )
                 )
@@ -103,7 +102,6 @@ class Info():
                     os.path.join(
                         home_dir,
                         'media',
-                        'raw',
                         'texts'
                         )
                     )
@@ -113,7 +111,6 @@ class Info():
                 os.path.join(
                     home_dir,
                     'media',
-                    'raw',
                     'bd'
                     )
                 )
@@ -123,7 +120,6 @@ class Info():
                     os.path.join(
                         home_dir,
                         'media',
-                        'raw',
                         'images',
                         'we'
                         )
@@ -230,8 +226,8 @@ class Info():
                 os.path.join(
                     home_dir,
                     'media',
-                    'raw',
                     'images',
+                    'raw',
                     'properties',
                     f'{number_id}'
                     )
@@ -256,8 +252,8 @@ class Info():
                     os.path.join(
                         home_dir,
                         'media',
-                        'raw',
                         'images',
+                        'raw',
                         'properties',
                         f'{number_id}'
                         )
@@ -266,7 +262,10 @@ class Info():
 
             # if not os.path.exists(photo_face_path):
             shutil.copy(photo_face_path, dist_path_photo)
-            os.rename(os.path.join(dist_path_photo, 'Морда.jpeg'), os.path.join(dist_path_photo, 'face.jpeg'))
+            os.rename(
+                os.path.join(dist_path_photo, 'Морда.jpeg'), 
+                os.path.join(dist_path_photo, 'face.jpeg')
+            )
 
             for dirs in pathlib.Path(photo_path).iterdir():
                 if dirs.is_dir():
