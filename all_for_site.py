@@ -279,26 +279,26 @@ class Info():
         # ftp.cwd('rossoshrealty')
         # print(ftp.getwelcome())
 
-        # for dir in base:
-        #     if dir.is_dir():
-        #         for smth in pathlib.Path(dir).iterdir():
-        #             if smth.is_dir():
-        #                 for smth_2 in pathlib.Path(smth).iterdir():
-        #                     print(smth_2)
-        #                     if smth_2.is_dir():
-        #                         for smth_3 in pathlib.Path(smth_2).iterdir():
-        #                             print(smth_3)
-        #                             if smth_3.is_dir():
-        #                                 for smth_4 in pathlib.Path(smth_3).iterdir():
-        #                                     print()
-        #             else:
-        #                 print(smth)
+        for dir in base:
+            if dir.is_dir():
+                for smth in pathlib.Path(dir).iterdir():
+                    if smth.is_dir():
+                        for smth_2 in pathlib.Path(smth).iterdir():
+                            print(smth_2)
+                            if smth_2.is_dir():
+                                for smth_3 in pathlib.Path(smth_2).iterdir():
+                                    print(smth_3)
+                                    if smth_3.is_dir():
+                                        for smth_4 in pathlib.Path(smth_3).iterdir():
+                                            print()
+                    else:
+                        print(smth)
 
 
 
-Basic().check_dirs(list_of_dirs)
-Info().text()
-Info().rss()
-Info().bd()
-Info().photo()
-# Info().ftp()
+# Basic().check_dirs(list_of_dirs)
+# Info().text()
+# Info().rss()
+# Info().bd()
+# Info().photo()
+Info().ftp()
