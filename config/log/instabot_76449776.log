@@ -1,0 +1,518 @@
+2021-02-18 11:17:42,597 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2021-02-18 11:17:42,618 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\proka\AppData\Local\Programs\Python\Python38-32\lib\site-packages\instabot\bot\bot.py
+2021-02-18 11:17:42,620 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2021-02-18 11:17:42,621 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2021-02-18 11:17:42,622 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d9b7b868-1e47-4ad9-a1d5-508c20cbe5ec
+- uuid=9140f426-363f-4b0b-80cf-8b891668158a
+- client_session_id=43fa3064-c023-44a8-8e9a-a0a4047f3640
+- device_id=android-48c570bbbb11421b
+2021-02-18 11:17:42,629 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2021-02-18 11:17:44,127 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2021-02-18 11:17:44,860 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2021-02-18 11:17:44,868 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'psevdoproger'!
+2021-02-18 11:17:44,869 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger.checkpoint
+2021-02-18 11:17:45,387 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/psevdoproger/usernameinfo/ returned response: <Response [200]>
+2021-02-18 11:17:46,518 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/45468866234/info/ returned response: <Response [200]>
+2021-02-18 11:17:47,029 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/45468866234/following/?max_id=&ig_sig_key_version=4&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a returned response: <Response [200]>
+2021-02-18 11:17:47,048 - instabot version: 0.117.0 (bot_unfollow) - INFO - Unfollowing non-followers.
+2021-02-18 11:17:47,549 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/45468866234/info/ returned response: <Response [200]>
+2021-02-18 11:17:47,949 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/45468866234/following/?max_id=&ig_sig_key_version=4&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a returned response: <Response [200]>
+2021-02-18 11:17:48,361 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/45468866234/info/ returned response: <Response [200]>
+2021-02-18 11:17:48,749 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/45468866234/followers/?rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a returned response: <Response [200]>
+2021-02-18 11:17:49,440 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/40481301943/info/ returned response: <Response [200]>
+2021-02-18 11:17:49,441 - instabot version: 0.117.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 40481301943 with username codingwalia.
+2021-02-18 11:17:51,503 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: friendships/destroy/40481301943/ returned response: <Response [200]>
+2021-02-18 11:17:51,503 - instabot version: 0.117.0 (bot_unfollow) - INFO - Unfollowed `user_id` 40481301943 with username codingwalia
+2021-02-18 11:17:52,134 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/7736887569/info/ returned response: <Response [200]>
+2021-02-18 11:17:52,135 - instabot version: 0.117.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 7736887569 with username nap.music.
+2021-02-18 11:23:19,542 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: friendships/destroy/7736887569/ returned response: <Response [200]>
+2021-02-18 11:23:19,542 - instabot version: 0.117.0 (bot_unfollow) - INFO - Unfollowed `user_id` 7736887569 with username nap.music
+2021-02-18 11:23:20,220 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/30248853297/info/ returned response: <Response [200]>
+2021-02-18 11:23:20,220 - instabot version: 0.117.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 30248853297 with username _programmers_0101.
+2021-02-18 11:33:38,529 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: friendships/destroy/30248853297/ returned response: <Response [200]>
+2021-02-18 11:33:38,535 - instabot version: 0.117.0 (bot_unfollow) - INFO - Unfollowed `user_id` 30248853297 with username _programmers_0101
+2021-02-18 11:33:39,056 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/44831972980/info/ returned response: <Response [200]>
+2021-02-18 11:33:39,057 - instabot version: 0.117.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 44831972980 with username handp_programmer.
+2021-02-18 11:44:44,211 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: friendships/destroy/44831972980/ returned response: <Response [200]>
+2021-02-18 11:44:44,211 - instabot version: 0.117.0 (bot_unfollow) - INFO - Unfollowed `user_id` 44831972980 with username handp_programmer
+2021-02-18 11:44:44,665 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/45468866234/info/ returned response: <Response [200]>
+2021-02-18 11:44:45,275 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/45468866234/following/?max_id=&ig_sig_key_version=4&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a returned response: <Response [200]>
+2021-02-18 11:44:46,382 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/8375116447/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:44:46,392 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:44:46,394 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:44:46,838 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/11568730559/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:44:46,840 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 11:44:46,841 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:44:47,154 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/6332838481/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:44:47,155 - instabot version: 0.117.0 (bot_filter) - INFO - Received 0 medias.
+2021-02-18 11:44:47,155 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:44:48,261 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/9883255273/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:44:48,272 - instabot version: 0.117.0 (bot_filter) - INFO - Received 35 medias.
+2021-02-18 11:44:48,273 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:44:48,697 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/12067816655/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:44:48,699 - instabot version: 0.117.0 (bot_filter) - INFO - Received 5 medias.
+2021-02-18 11:44:48,700 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:44:49,710 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45426233253/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:44:49,723 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:44:49,728 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:44:50,399 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/1431724849/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:44:50,408 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 11:44:50,409 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:44:50,926 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/3001006101/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:44:50,932 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 11:44:50,934 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:44:51,525 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/8341907421/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:44:51,531 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 11:44:51,532 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:44:52,078 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/1750838283/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:44:52,083 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 11:44:52,084 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:44:52,504 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/8316593356/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:44:52,507 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 11:44:52,509 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:44:52,919 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/8317207842/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:44:52,922 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 11:44:52,924 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:44:53,365 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/4124563134/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:44:53,368 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 11:44:53,369 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:44:53,812 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/3218467572/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:44:53,814 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 11:44:53,815 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:44:54,246 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/8415424454/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:44:54,249 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 11:44:54,250 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:44:54,760 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/26038919389/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:44:54,765 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:44:54,766 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:44:55,866 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/28614348239/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:44:55,885 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 11:44:55,886 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:44:56,600 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/9455084983/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:44:56,615 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 11:44:56,617 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:44:57,016 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/7097506766/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:44:57,019 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 11:44:57,021 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:44:57,959 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/43691184526/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:44:57,982 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:44:57,983 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:44:58,689 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/9773476139/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:44:58,711 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:44:58,712 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:44:59,362 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/35860305945/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:44:59,373 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:44:59,375 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:44:59,872 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/44980083590/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:44:59,877 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:44:59,879 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:00,772 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/44822754343/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:00,786 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:00,787 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:01,400 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/4044417560/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:01,412 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:01,413 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:02,122 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/40924321026/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:02,130 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:02,145 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:02,634 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/5580324684/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:02,639 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:02,640 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:03,434 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/2075059173/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:03,442 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:03,443 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:03,986 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/31613613202/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:03,992 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:03,993 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:04,458 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/44737054165/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:04,462 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:04,463 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:05,359 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45068219964/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:05,366 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:05,367 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:06,563 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/44748846021/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:06,576 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:06,577 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:07,275 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/43381901771/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:07,284 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:07,286 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:08,017 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/4464934942/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:08,026 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:08,028 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:08,676 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45365454678/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:08,688 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:08,689 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:09,563 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/4232732794/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:09,570 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:09,591 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:10,498 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/7917768896/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:10,507 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:10,539 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:11,313 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/1279740321/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:11,320 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:11,321 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:12,012 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/1775400646/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:12,025 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 11:45:12,026 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:12,765 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/20822456/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:12,772 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:12,773 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:13,533 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/186128035/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:13,542 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:13,544 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:14,052 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/30632573585/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:14,058 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:14,059 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:14,744 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/34409272108/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:14,754 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:14,755 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:15,417 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/43394781940/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:15,422 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:15,424 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:16,388 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/44492100596/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:16,398 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:16,399 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:17,689 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/11152767319/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:17,701 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:17,792 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:18,443 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/38832588388/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:18,448 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:18,449 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:19,317 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/7573209367/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:19,324 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:19,325 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:19,972 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/43042274087/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:19,977 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:19,979 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:20,913 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/3648469460/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:20,928 - instabot version: 0.117.0 (bot_filter) - INFO - Received 35 medias.
+2021-02-18 11:45:20,929 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:21,603 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/21055799611/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:21,609 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:21,610 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:22,224 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45636858936/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:22,228 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:22,229 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:23,010 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/30032275066/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:23,017 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:23,019 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:23,721 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/3414872486/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:23,733 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:23,735 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:24,488 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45604857213/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:24,512 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:24,513 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:27,932 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/3972818498/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:27,988 - instabot version: 0.117.0 (bot_filter) - INFO - Received 34 medias.
+2021-02-18 11:45:27,989 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:28,589 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/36665091343/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:28,596 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:28,597 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:29,062 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/36761537627/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:29,068 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:29,069 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:31,032 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45426742553/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:31,041 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:31,042 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:32,287 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/283303809/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:32,300 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:32,301 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:32,935 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45083398900/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:32,940 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:32,941 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:33,435 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/36107032537/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:33,438 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:33,439 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:34,241 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/1533812941/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:34,249 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:34,250 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:35,178 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/8521543676/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:35,188 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:35,189 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:35,697 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/44766316676/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:35,703 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:35,704 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:36,379 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45432108355/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:36,386 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:36,387 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:37,047 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/13206502237/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:37,055 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:37,056 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:37,951 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/29138958447/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:37,958 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:37,959 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:38,544 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/4036450668/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:38,552 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:38,554 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:39,243 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/197220161/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:39,249 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:39,250 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:39,974 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/12558167805/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:39,986 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:39,987 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:40,501 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45224756071/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:40,507 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:40,508 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:41,046 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/41704275388/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:41,052 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:41,054 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:41,819 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/29782547288/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:41,827 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:41,828 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:42,425 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/7709486713/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:42,436 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:42,438 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:43,323 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/26902385680/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:43,334 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:43,336 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:43,889 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/28213256387/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:43,892 - instabot version: 0.117.0 (bot_filter) - INFO - Received 6 medias.
+2021-02-18 11:45:43,893 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:44,337 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/5597645913/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:44,341 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:44,342 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:45,145 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/7473354589/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:45,152 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:45,153 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:46,160 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/5458514415/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:46,178 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:46,179 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:46,987 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45197214303/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:47,009 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:47,010 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:47,662 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/5653902069/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:47,665 - instabot version: 0.117.0 (bot_filter) - INFO - Received 15 medias.
+2021-02-18 11:45:47,666 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:48,126 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45457340687/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:48,131 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:48,132 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:48,641 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/44572841974/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:48,649 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:48,650 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:49,194 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/10742303144/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:49,198 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:49,199 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:49,866 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/41768060404/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:49,872 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:49,873 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:50,173 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/40612882444/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:50,173 - instabot version: 0.117.0 (bot_filter) - INFO - Received 0 medias.
+2021-02-18 11:45:50,174 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:50,840 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/42738970735/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:50,847 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:50,848 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:51,550 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/12259107698/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:51,558 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:51,665 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:52,196 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/41366569723/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:52,201 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:52,209 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:52,723 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/8712714447/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:52,728 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:52,729 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:53,332 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45479326073/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:53,336 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:53,342 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:54,058 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/43156922602/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:54,065 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:54,067 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:54,644 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/44361937331/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:54,650 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:54,651 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:55,211 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/40952627454/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:55,215 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:55,217 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:55,667 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/37445281243/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:55,669 - instabot version: 0.117.0 (bot_filter) - INFO - Received 16 medias.
+2021-02-18 11:45:55,670 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:56,129 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/32420858950/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:56,132 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:56,133 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:56,595 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/19206364637/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:56,598 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:56,599 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:57,280 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/4104334650/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:57,285 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:57,286 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:57,843 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/1510802368/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:57,849 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:57,850 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:58,807 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/183986637/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:58,817 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:58,818 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:59,365 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/44325057603/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:59,372 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:59,374 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:45:59,842 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/8398231694/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:45:59,846 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:45:59,848 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:00,312 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45025328681/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:00,318 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:00,320 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:00,931 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/4577592906/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:00,938 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:00,939 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:01,430 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/3675032101/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:01,443 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:01,445 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:01,982 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45069914916/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:01,988 - instabot version: 0.117.0 (bot_filter) - INFO - Received 17 medias.
+2021-02-18 11:46:01,990 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:02,719 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/21614776473/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:02,729 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:02,731 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:03,327 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/35881905032/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:03,333 - instabot version: 0.117.0 (bot_filter) - INFO - Received 11 medias.
+2021-02-18 11:46:03,334 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:04,032 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/440716122/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:04,038 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:04,039 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:04,913 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/44831757623/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:04,927 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:04,928 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:05,555 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/1806776909/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:05,560 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:05,561 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:06,252 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/8166432762/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:06,259 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:06,260 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:06,692 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45536224747/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:06,694 - instabot version: 0.117.0 (bot_filter) - INFO - Received 5 medias.
+2021-02-18 11:46:06,695 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:07,149 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/7312734830/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:07,154 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:07,155 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:07,932 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/7958386712/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:07,940 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:07,941 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:08,664 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/1413130097/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:08,673 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:08,674 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:09,369 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/6005659618/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:09,375 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:09,376 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:10,152 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/7895633315/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:10,163 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:10,189 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:11,078 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/31388186240/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:11,086 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:11,087 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:11,556 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/6147364189/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:11,559 - instabot version: 0.117.0 (bot_filter) - INFO - Received 11 medias.
+2021-02-18 11:46:11,560 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:12,412 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/26959696038/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:12,423 - instabot version: 0.117.0 (bot_filter) - INFO - Received 35 medias.
+2021-02-18 11:46:12,424 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:13,145 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/44455976238/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:13,153 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:13,155 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:13,881 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/1603579577/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:13,886 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:13,887 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:14,465 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45462124781/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:14,471 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:14,473 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:15,127 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/32901605548/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:15,132 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:15,133 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:15,692 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/40957983293/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:15,701 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:15,703 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:16,238 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/33456857417/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:16,246 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:16,247 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:17,126 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/14720815319/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:17,139 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:17,140 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:17,754 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/7880106779/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:17,763 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:17,764 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:18,199 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/44675997115/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:18,206 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:18,207 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:18,569 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45472212218/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:18,570 - instabot version: 0.117.0 (bot_filter) - INFO - Received 2 medias.
+2021-02-18 11:46:18,572 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:19,068 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45322740021/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:19,072 - instabot version: 0.117.0 (bot_filter) - INFO - Received 8 medias.
+2021-02-18 11:46:19,073 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:19,553 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/3604864604/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:19,560 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:19,561 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:20,432 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/21990078980/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:20,445 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:20,446 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:20,910 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/12293926779/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:20,916 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:20,917 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:21,563 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45513123127/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:21,568 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 11:46:21,570 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:21,964 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/7119035504/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:21,966 - instabot version: 0.117.0 (bot_filter) - INFO - Received 7 medias.
+2021-02-18 11:46:21,968 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:22,521 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/8280049285/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:22,527 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:22,528 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:23,336 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/929141511/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:23,343 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:23,344 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:23,757 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45142903300/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:23,760 - instabot version: 0.117.0 (bot_filter) - INFO - Received 4 medias.
+2021-02-18 11:46:23,761 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:24,325 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/24432689039/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:24,331 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:24,332 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:24,833 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/7315588432/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:24,840 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:24,841 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:25,516 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/4069735198/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:25,524 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:25,525 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:26,060 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/3647534105/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:26,064 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:26,065 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:26,741 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/11701729447/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:26,748 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:26,749 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:27,316 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/4504677903/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:27,323 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:27,324 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:28,005 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/10129805/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:28,011 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:28,013 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:28,357 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/44022605708/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:28,359 - instabot version: 0.117.0 (bot_filter) - INFO - Received 1 medias.
+2021-02-18 11:46:28,360 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:28,793 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45864993992/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:28,798 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:28,800 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:29,194 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45500893538/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:29,196 - instabot version: 0.117.0 (bot_filter) - INFO - Received 3 medias.
+2021-02-18 11:46:29,197 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:29,799 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/1414601753/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:29,819 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:29,820 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:30,500 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/1259371895/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:30,508 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:30,509 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:31,117 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/10689439537/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:31,124 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:31,125 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:31,813 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/6895367322/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:31,821 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 11:46:31,822 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:32,249 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/41798186732/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:32,253 - instabot version: 0.117.0 (bot_filter) - INFO - Received 15 medias.
+2021-02-18 11:46:32,254 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:32,568 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/25922958205/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:32,568 - instabot version: 0.117.0 (bot_filter) - INFO - Received 0 medias.
+2021-02-18 11:46:32,569 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:33,010 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/18349003214/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 11:46:33,014 - instabot version: 0.117.0 (bot_filter) - INFO - Received 13 medias.
+2021-02-18 11:46:33,015 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 11:46:33,066 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger.checkpoint
+2021-02-18 11:46:33,068 - instabot version: 0.117.0 (bot) - INFO - Total unfollows: 12/73
+2021-02-18 11:46:33,075 - instabot version: 0.117.0 (bot) - INFO - Total requests: 1766

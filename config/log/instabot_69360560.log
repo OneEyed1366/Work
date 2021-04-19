@@ -1,0 +1,65 @@
+2021-02-16 14:04:27,187 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2021-02-16 14:04:27,206 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\proka\AppData\Local\Programs\Python\Python38-32\lib\site-packages\instabot\bot\bot.py
+2021-02-16 14:04:27,208 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2021-02-16 14:04:27,210 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2021-02-16 14:04:27,210 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d9b7b868-1e47-4ad9-a1d5-508c20cbe5ec
+- uuid=9140f426-363f-4b0b-80cf-8b891668158a
+- client_session_id=be1a26df-77ab-4644-8a01-afa6f23460ad
+- device_id=android-48c570bbbb11421b
+2021-02-16 14:04:27,219 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2021-02-16 14:04:29,587 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2021-02-16 14:04:30,448 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2021-02-16 14:04:30,749 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2021-02-16 14:04:31,045 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2021-02-16 14:04:31,435 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/inbox/ returned response: <Response [200]>
+2021-02-16 14:04:31,919 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2021-02-16 14:04:32,677 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: news/inbox/?limited_activity=true&show_su=true returned response: <Response [200]>
+2021-02-16 14:04:32,963 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/profile_notice/ returned response: <Response [200]>
+2021-02-16 14:04:33,273 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: discover/explore/ returned response: <Response [200]>
+2021-02-16 14:04:33,282 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'psevdoproger'!
+2021-02-16 14:04:33,283 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger.checkpoint
+2021-02-16 14:04:33,710 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/psevdoproger/usernameinfo/ returned response: <Response [200]>
+2021-02-16 14:04:34,804 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/45468866234/info/ returned response: <Response [200]>
+2021-02-16 14:04:35,235 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/45468866234/following/?max_id=&ig_sig_key_version=4&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a returned response: <Response [200]>
+2021-02-16 14:04:39,419 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/python/?max_id=&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true& returned response: <Response [200]>
+2021-02-16 14:04:39,465 - instabot version: 0.117.0 (bot_filter) - INFO - Received 84 medias.
+2021-02-16 14:04:39,466 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-16 14:04:43,563 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/dev/?max_id=&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true& returned response: <Response [200]>
+2021-02-16 14:04:43,614 - instabot version: 0.117.0 (bot_filter) - INFO - Received 86 medias.
+2021-02-16 14:04:43,615 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-16 14:04:47,916 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/js/?max_id=&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true& returned response: <Response [200]>
+2021-02-16 14:04:47,955 - instabot version: 0.117.0 (bot_filter) - INFO - Received 85 medias.
+2021-02-16 14:04:47,956 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-16 14:04:51,827 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/javascript/?max_id=&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true& returned response: <Response [200]>
+2021-02-16 14:04:51,865 - instabot version: 0.117.0 (bot_filter) - INFO - Received 86 medias.
+2021-02-16 14:04:51,866 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-16 14:04:54,846 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/proger/?max_id=&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true& returned response: <Response [200]>
+2021-02-16 14:04:54,876 - instabot version: 0.117.0 (bot_filter) - INFO - Received 86 medias.
+2021-02-16 14:04:54,877 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-16 14:04:59,017 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/programming/?max_id=&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true& returned response: <Response [200]>
+2021-02-16 14:04:59,055 - instabot version: 0.117.0 (bot_filter) - INFO - Received 84 medias.
+2021-02-16 14:04:59,056 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-16 14:05:03,057 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/sport/?max_id=&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true& returned response: <Response [200]>
+2021-02-16 14:05:03,084 - instabot version: 0.117.0 (bot_filter) - INFO - Received 70 medias.
+2021-02-16 14:05:03,085 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-16 14:05:07,068 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/fitness/?max_id=&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true& returned response: <Response [200]>
+2021-02-16 14:05:07,105 - instabot version: 0.117.0 (bot_filter) - INFO - Received 74 medias.
+2021-02-16 14:05:07,106 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-16 14:05:11,226 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/classicalmusic/?max_id=&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true& returned response: <Response [200]>
+2021-02-16 14:05:11,267 - instabot version: 0.117.0 (bot_filter) - INFO - Received 85 medias.
+2021-02-16 14:05:11,269 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-16 14:05:15,104 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/jrock/?max_id=&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true& returned response: <Response [200]>
+2021-02-16 14:05:15,136 - instabot version: 0.117.0 (bot_filter) - INFO - Received 85 medias.
+2021-02-16 14:05:15,137 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-16 14:05:20,636 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/rock/?max_id=&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true& returned response: <Response [200]>
+2021-02-16 14:05:20,675 - instabot version: 0.117.0 (bot_filter) - INFO - Received 75 medias.
+2021-02-16 14:05:20,677 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-16 14:05:27,901 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/kpop/?max_id=&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true& returned response: <Response [200]>
+2021-02-16 14:05:27,988 - instabot version: 0.117.0 (bot_filter) - INFO - Received 86 medias.
+2021-02-16 14:05:27,989 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-16 14:05:27,995 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger.checkpoint
+2021-02-16 14:05:27,997 - instabot version: 0.117.0 (bot) - INFO - Total follows: 4/74
+2021-02-16 14:05:27,998 - instabot version: 0.117.0 (bot) - INFO - Total unfollows: 6/82
+2021-02-16 14:05:27,998 - instabot version: 0.117.0 (bot) - INFO - Total requests: 929

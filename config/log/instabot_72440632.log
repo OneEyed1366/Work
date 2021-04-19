@@ -1,0 +1,30 @@
+2021-02-18 10:41:57,043 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2021-02-18 10:41:57,066 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\proka\AppData\Local\Programs\Python\Python38-32\lib\site-packages\instabot\bot\bot.py
+2021-02-18 10:41:57,069 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2021-02-18 10:41:57,070 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2021-02-18 10:41:57,070 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d9b7b868-1e47-4ad9-a1d5-508c20cbe5ec
+- uuid=9140f426-363f-4b0b-80cf-8b891668158a
+- client_session_id=97fcb3cc-a8e3-4dfd-a44a-f7ad3d7c19a1
+- device_id=android-48c570bbbb11421b
+2021-02-18 10:41:57,075 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2021-02-18 10:41:58,616 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2021-02-18 10:41:59,293 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2021-02-18 10:41:59,299 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'psevdoproger'!
+2021-02-18 10:41:59,300 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger.checkpoint
+2021-02-18 10:41:59,762 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/psevdoproger/usernameinfo/ returned response: <Response [200]>
+2021-02-18 10:42:00,654 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/45468866234/info/ returned response: <Response [200]>
+2021-02-18 10:42:01,319 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/45468866234/following/?max_id=&ig_sig_key_version=4&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a returned response: <Response [200]>
+2021-02-18 10:42:01,960 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/familyan.rossosh/usernameinfo/ returned response: <Response [200]>
+2021-02-18 10:42:03,578 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45426233253/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 10:42:04,066 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2510998640903035894_45426233253/info/ returned response: <Response [200]>
+2021-02-18 10:42:04,539 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/45426233253/info/ returned response: <Response [200]>
+2021-02-18 10:42:04,983 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2509589832054038616_45426233253/info/ returned response: <Response [200]>
+2021-02-18 10:42:05,338 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2508974022856168803_45426233253/info/ returned response: <Response [200]>
+2021-02-18 10:42:05,679 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2508732455272793230_45426233253/info/ returned response: <Response [200]>
+2021-02-18 10:42:06,029 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2508078050726808795_45426233253/info/ returned response: <Response [200]>
+2021-02-18 10:42:06,540 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2506716938445732636_45426233253/info/ returned response: <Response [200]>
+2021-02-18 10:42:06,666 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger.checkpoint
+2021-02-18 10:42:06,668 - instabot version: 0.117.0 (bot) - INFO - Total unfollows: 2/67
+2021-02-18 10:42:06,669 - instabot version: 0.117.0 (bot) - INFO - Total requests: 1288

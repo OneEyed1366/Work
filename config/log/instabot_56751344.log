@@ -1,0 +1,4 @@
+2020-11-21 19:07:45,262 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-11-21 19:07:45,287 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\proka\AppData\Local\Programs\Python\Python38-32\lib\site-packages\instabot\bot\bot.py
+2020-11-21 19:07:56,537 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/familyprokson.checkpoint
+2020-11-21 19:07:56,543 - instabot version: 0.117.0 (bot) - INFO - Total requests: 33

@@ -1,0 +1,32 @@
+2021-02-18 11:10:46,193 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2021-02-18 11:10:46,208 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\proka\AppData\Local\Programs\Python\Python38-32\lib\site-packages\instabot\bot\bot.py
+2021-02-18 11:10:46,211 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2021-02-18 11:10:46,211 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2021-02-18 11:10:46,212 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d9b7b868-1e47-4ad9-a1d5-508c20cbe5ec
+- uuid=9140f426-363f-4b0b-80cf-8b891668158a
+- client_session_id=43fa3064-c023-44a8-8e9a-a0a4047f3640
+- device_id=android-48c570bbbb11421b
+2021-02-18 11:10:46,252 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2021-02-18 11:10:47,708 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2021-02-18 11:10:48,360 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2021-02-18 11:10:48,367 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'psevdoproger'!
+2021-02-18 11:10:48,369 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger.checkpoint
+2021-02-18 11:10:48,768 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/psevdoproger/usernameinfo/ returned response: <Response [200]>
+2021-02-18 11:10:49,348 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/45468866234/info/ returned response: <Response [200]>
+2021-02-18 11:10:49,812 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/45468866234/following/?max_id=&ig_sig_key_version=4&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a returned response: <Response [200]>
+2021-02-18 11:10:49,828 - instabot version: 0.117.0 (bot_unfollow) - INFO - Unfollowing non-followers.
+2021-02-18 11:10:50,257 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/45468866234/info/ returned response: <Response [200]>
+2021-02-18 11:10:50,669 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/45468866234/following/?max_id=&ig_sig_key_version=4&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a returned response: <Response [200]>
+2021-02-18 11:10:51,114 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/45468866234/info/ returned response: <Response [200]>
+2021-02-18 11:10:51,480 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/45468866234/followers/?rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a returned response: <Response [200]>
+2021-02-18 11:10:52,022 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/6195032695/info/ returned response: <Response [200]>
+2021-02-18 11:10:52,022 - instabot version: 0.117.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 6195032695 with username highdesertpythons.
+2021-02-18 11:10:54,140 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: friendships/destroy/6195032695/ returned response: <Response [200]>
+2021-02-18 11:10:54,141 - instabot version: 0.117.0 (bot_unfollow) - INFO - Unfollowed `user_id` 6195032695 with username highdesertpythons
+2021-02-18 11:10:54,732 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/45604857213/info/ returned response: <Response [200]>
+2021-02-18 11:10:54,732 - instabot version: 0.117.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 45604857213 with username devshoney.
+2021-02-18 11:11:00,506 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger.checkpoint
+2021-02-18 11:11:00,507 - instabot version: 0.117.0 (bot) - INFO - Total unfollows: 8/89
+2021-02-18 11:11:00,533 - instabot version: 0.117.0 (bot) - INFO - Total requests: 1537

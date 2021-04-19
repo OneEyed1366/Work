@@ -1,0 +1,183 @@
+2021-02-19 13:59:53,562 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2021-02-19 13:59:53,572 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\proka\AppData\Local\Programs\Python\Python38-32\lib\site-packages\instabot\bot\bot.py
+2021-02-19 13:59:53,575 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2021-02-19 13:59:53,576 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2021-02-19 13:59:53,576 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/familyan.rossosh_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=7807577f-5f74-4b42-8750-a1d357daae34
+- uuid=33c60f2e-8787-4e0e-a423-171025b5da50
+- client_session_id=70114dcc-820e-4722-b6e6-46bcf327b522
+- device_id=android-b75752550f1d6915
+2021-02-19 13:59:53,620 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2021-02-19 13:59:55,036 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2021-02-19 13:59:55,855 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2021-02-19 13:59:55,862 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'familyan.rossosh'!
+2021-02-19 13:59:55,863 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/familyan.rossosh.checkpoint
+2021-02-19 13:59:56,764 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/familyan.rossosh/usernameinfo/ returned response: <Response [200]>
+2021-02-19 13:59:57,676 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/45426233253/info/ returned response: <Response [200]>
+2021-02-19 13:59:58,099 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/45426233253/following/?max_id=&ig_sig_key_version=4&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [200]>
+2021-02-19 13:59:58,931 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/45426233253/info/ returned response: <Response [200]>
+2021-02-19 13:59:59,317 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/45426233253/following/?max_id=&ig_sig_key_version=4&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [200]>
+2021-02-19 13:59:59,327 - instabot version: 0.117.0 (bot_like) - INFO - Going to like media with hashtag #россошь36.
+2021-02-19 14:00:02,976 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошь36/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-19 14:00:03,475 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: tags/search/?is_typeahead=true&q=россошь36&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [200]>
+2021-02-19 14:00:03,477 - instabot version: 0.117.0 (bot_like) - INFO - Going to like 2 medias.
+2021-02-19 14:00:03,827 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512491727529481805_45426233253/info/ returned response: <Response [200]>
+2021-02-19 14:00:04,164 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512491727529481805_45426233253/info/ returned response: <Response [200]>
+2021-02-19 14:00:04,499 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512491727529481805_45426233253/comments/ returned response: <Response [200]>
+2021-02-19 14:03:44,905 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512481633461554203_4232732794/info/ returned response: <Response [200]>
+2021-02-19 14:03:45,266 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512481633461554203_4232732794/info/ returned response: <Response [200]>
+2021-02-19 14:03:45,612 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512481633461554203_4232732794/comments/ returned response: <Response [200]>
+2021-02-19 14:03:55,616 - instabot version: 0.117.0 (bot_like) - INFO - DONE: Total liked 0 medias.
+2021-02-19 14:03:55,627 - instabot version: 0.117.0 (bot_like) - INFO - Going to like media with hashtag #россошь136.
+2021-02-19 14:04:00,057 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошь136/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-19 14:04:00,538 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: tags/search/?is_typeahead=true&q=россошь136&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [200]>
+2021-02-19 14:04:00,540 - instabot version: 0.117.0 (bot_like) - INFO - Going to like 3 medias.
+2021-02-19 14:12:03,587 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512452079966877859_7571383181/info/ returned response: <Response [200]>
+2021-02-19 14:12:03,993 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512452079966877859_7571383181/info/ returned response: <Response [200]>
+2021-02-19 14:12:04,424 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512452079966877859_7571383181/comments/ returned response: <Response [200]>
+2021-02-19 14:12:04,809 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512452079966877859_7571383181/info/ returned response: <Response [200]>
+2021-02-19 14:12:04,810 - instabot version: 0.117.0 (api) - DEBUG - post data: {"inventory_source": "media_or_ad", "media_id": "2512452079966877859_7571383181", "radio_type": "wifi-none", "container_module": "feed_contextual_hashtag", "feed_position": "0", "is_carousel_bumped_post": "false", "device_id": "android-b75752550f1d6915", "hashtag_name": "\u0440\u043e\u0441\u0441\u043e\u0448\u044c136", "hashtag_id": 17905608337065562, "_uuid": "33c60f2e-8787-4e0e-a423-171025b5da50", "_uid": "45426233253", "_csrftoken": "zPkGCgg1CGBBltUdrVA4QI7DWw6hd527"}
+2021-02-19 14:12:05,941 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/2512452079966877859_7571383181/like/ returned response: <Response [200]>
+2021-02-19 14:12:05,941 - instabot version: 0.117.0 (bot_like) - INFO - Liked media 2512452079966877859_7571383181.
+2021-02-19 14:22:37,069 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2510444754229824113_6170676081/info/ returned response: <Response [200]>
+2021-02-19 14:22:37,430 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2510444754229824113_6170676081/info/ returned response: <Response [200]>
+2021-02-19 14:22:37,885 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2510444754229824113_6170676081/comments/ returned response: <Response [200]>
+2021-02-19 14:29:12,503 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2510346345733088032_1419260998/info/ returned response: <Response [200]>
+2021-02-19 14:29:12,867 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2510346345733088032_1419260998/info/ returned response: <Response [200]>
+2021-02-19 14:29:13,228 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2510346345733088032_1419260998/comments/ returned response: <Response [200]>
+2021-02-19 14:29:23,232 - instabot version: 0.117.0 (bot_like) - INFO - DONE: Total liked 1 medias.
+2021-02-19 14:29:23,245 - instabot version: 0.117.0 (bot_like) - INFO - Going to like media with hashtag #россошь.
+2021-02-19 14:29:26,779 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошь/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-19 14:29:27,310 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: tags/search/?is_typeahead=true&q=россошь&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [200]>
+2021-02-19 14:29:27,313 - instabot version: 0.117.0 (bot_like) - INFO - Going to like 2 medias.
+2021-02-19 14:33:50,045 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512505245697828774_3514175208/info/ returned response: <Response [200]>
+2021-02-19 14:33:50,525 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512505245697828774_3514175208/info/ returned response: <Response [200]>
+2021-02-19 14:33:50,863 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512505245697828774_3514175208/comments/ returned response: <Response [200]>
+2021-02-19 14:39:14,231 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512504851835830074_3514175208/info/ returned response: <Response [200]>
+2021-02-19 14:39:14,587 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512504851835830074_3514175208/info/ returned response: <Response [200]>
+2021-02-19 14:39:14,926 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512504851835830074_3514175208/comments/ returned response: <Response [200]>
+2021-02-19 14:39:24,930 - instabot version: 0.117.0 (bot_like) - INFO - DONE: Total liked 1 medias.
+2021-02-19 14:39:24,932 - instabot version: 0.117.0 (bot_like) - INFO - Going to like media with hashtag #риэлтор.
+2021-02-19 14:39:29,761 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/риэлтор/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-19 14:39:30,330 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: tags/search/?is_typeahead=true&q=риэлтор&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [200]>
+2021-02-19 14:39:30,333 - instabot version: 0.117.0 (bot_like) - INFO - Going to like 2 medias.
+2021-02-19 14:46:52,860 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512508659021689132_45644698869/info/ returned response: <Response [200]>
+2021-02-19 14:46:53,225 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512508659021689132_45644698869/info/ returned response: <Response [200]>
+2021-02-19 14:46:53,550 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512508659021689132_45644698869/comments/ returned response: <Response [200]>
+2021-02-19 14:59:08,587 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512505043356651169_15964538608/info/ returned response: <Response [200]>
+2021-02-19 14:59:08,988 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512505043356651169_15964538608/info/ returned response: <Response [200]>
+2021-02-19 14:59:09,366 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512505043356651169_15964538608/comments/ returned response: <Response [200]>
+2021-02-19 14:59:19,369 - instabot version: 0.117.0 (bot_like) - INFO - DONE: Total liked 1 medias.
+2021-02-19 14:59:19,380 - instabot version: 0.117.0 (bot_like) - INFO - Going to like media with hashtag #россошьфото.
+2021-02-19 14:59:23,415 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошьфото/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-19 14:59:23,988 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: tags/search/?is_typeahead=true&q=россошьфото&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [200]>
+2021-02-19 14:59:23,990 - instabot version: 0.117.0 (bot_like) - INFO - Going to like 4 medias.
+2021-02-19 15:04:08,182 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512429469730494493_46090031360/info/ returned response: <Response [200]>
+2021-02-19 15:04:08,526 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512429469730494493_46090031360/info/ returned response: <Response [200]>
+2021-02-19 15:04:08,842 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512429469730494493_46090031360/comments/ returned response: <Response [200]>
+2021-02-19 15:07:46,732 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512315907961766362_2327769740/info/ returned response: <Response [200]>
+2021-02-19 15:07:47,081 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512315907961766362_2327769740/info/ returned response: <Response [200]>
+2021-02-19 15:07:47,401 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512315907961766362_2327769740/comments/ returned response: <Response [200]>
+2021-02-19 15:18:03,748 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512118625031720436_45133369245/info/ returned response: <Response [200]>
+2021-02-19 15:18:04,143 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512118625031720436_45133369245/info/ returned response: <Response [200]>
+2021-02-19 15:18:04,468 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512118625031720436_45133369245/comments/ returned response: <Response [200]>
+2021-02-19 15:29:09,000 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512117217555624570_45398490050/info/ returned response: <Response [200]>
+2021-02-19 15:29:09,480 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512117217555624570_45398490050/info/ returned response: <Response [200]>
+2021-02-19 15:29:09,833 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512117217555624570_45398490050/comments/ returned response: <Response [200]>
+2021-02-19 15:29:19,847 - instabot version: 0.117.0 (bot_like) - INFO - DONE: Total liked 1 medias.
+2021-02-19 15:29:19,849 - instabot version: 0.117.0 (bot_like) - INFO - Going to like media with hashtag #россошьотдых.
+2021-02-19 15:29:25,614 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошьотдых/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-19 15:29:26,176 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: tags/search/?is_typeahead=true&q=россошьотдых&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [200]>
+2021-02-19 15:29:26,178 - instabot version: 0.117.0 (bot_like) - INFO - Going to like 3 medias.
+2021-02-19 15:40:49,459 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512460387163373859_8444767434/info/ returned response: <Response [200]>
+2021-02-19 15:40:49,809 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512460387163373859_8444767434/info/ returned response: <Response [200]>
+2021-02-19 15:40:50,134 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512460387163373859_8444767434/comments/ returned response: <Response [200]>
+2021-02-19 15:48:09,064 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512444098827130191_19342303956/info/ returned response: <Response [200]>
+2021-02-19 15:48:09,653 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512444098827130191_19342303956/info/ returned response: <Response [200]>
+2021-02-19 15:48:10,019 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512444098827130191_19342303956/comments/ returned response: <Response [200]>
+2021-02-19 15:56:20,834 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512429469730494493_46090031360/info/ returned response: <Response [200]>
+2021-02-19 15:56:21,167 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512429469730494493_46090031360/info/ returned response: <Response [200]>
+2021-02-19 15:56:21,554 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512429469730494493_46090031360/comments/ returned response: <Response [200]>
+2021-02-19 15:56:31,557 - instabot version: 0.117.0 (bot_like) - INFO - DONE: Total liked 1 medias.
+2021-02-19 15:56:31,559 - instabot version: 0.117.0 (bot_like) - INFO - Going to like media with hashtag #россошьподарки.
+2021-02-19 15:56:36,902 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошьподарки/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-19 15:56:37,422 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: tags/search/?is_typeahead=true&q=россошьподарки&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [200]>
+2021-02-19 15:56:37,425 - instabot version: 0.117.0 (bot_like) - INFO - Going to like 3 medias.
+2021-02-19 16:04:10,958 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512460387163373859_8444767434/info/ returned response: <Response [200]>
+2021-02-19 16:04:11,307 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512460387163373859_8444767434/info/ returned response: <Response [200]>
+2021-02-19 16:04:11,684 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512460387163373859_8444767434/comments/ returned response: <Response [200]>
+2021-02-19 16:07:30,119 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512429469730494493_46090031360/info/ returned response: <Response [200]>
+2021-02-19 16:07:30,466 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512429469730494493_46090031360/info/ returned response: <Response [200]>
+2021-02-19 16:07:30,787 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512429469730494493_46090031360/comments/ returned response: <Response [200]>
+2021-02-19 16:10:55,063 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511833509052943903_45536676608/info/ returned response: <Response [200]>
+2021-02-19 16:10:55,422 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511833509052943903_45536676608/info/ returned response: <Response [200]>
+2021-02-19 16:10:55,777 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511833509052943903_45536676608/comments/ returned response: <Response [200]>
+2021-02-19 16:11:05,791 - instabot version: 0.117.0 (bot_like) - INFO - DONE: Total liked 1 medias.
+2021-02-19 16:11:05,793 - instabot version: 0.117.0 (bot_like) - INFO - Going to like media with hashtag #россошьцветы.
+2021-02-19 16:11:09,288 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошьцветы/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-19 16:11:09,689 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: tags/search/?is_typeahead=true&q=россошьцветы&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [200]>
+2021-02-19 16:11:09,691 - instabot version: 0.117.0 (bot_like) - INFO - Going to like 4 medias.
+2021-02-19 16:22:35,969 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512422985858355861_6868746634/info/ returned response: <Response [200]>
+2021-02-19 16:22:36,350 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512422985858355861_6868746634/info/ returned response: <Response [200]>
+2021-02-19 16:22:36,761 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512422985858355861_6868746634/comments/ returned response: <Response [200]>
+2021-02-19 16:26:46,396 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511993072884305404_46090031360/info/ returned response: <Response [200]>
+2021-02-19 16:26:46,767 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511993072884305404_46090031360/info/ returned response: <Response [200]>
+2021-02-19 16:26:47,103 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511993072884305404_46090031360/comments/ returned response: <Response [200]>
+2021-02-19 16:38:48,011 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511801827035207357_6868746634/info/ returned response: <Response [200]>
+2021-02-19 16:38:48,366 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511801827035207357_6868746634/info/ returned response: <Response [200]>
+2021-02-19 16:38:48,701 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511801827035207357_6868746634/comments/ returned response: <Response [200]>
+2021-02-19 16:46:45,935 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511000120713972554_6868746634/info/ returned response: <Response [200]>
+2021-02-19 16:46:46,285 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511000120713972554_6868746634/info/ returned response: <Response [200]>
+2021-02-19 16:46:46,630 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511000120713972554_6868746634/comments/ returned response: <Response [200]>
+2021-02-19 16:46:56,644 - instabot version: 0.117.0 (bot_like) - INFO - DONE: Total liked 1 medias.
+2021-02-19 16:46:56,646 - instabot version: 0.117.0 (bot_like) - INFO - Going to like media with hashtag #россошьмастеркласс.
+2021-02-19 16:47:01,277 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошьмастеркласс/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-19 16:47:01,763 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: tags/search/?is_typeahead=true&q=россошьмастеркласс&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [200]>
+2021-02-19 16:47:01,766 - instabot version: 0.117.0 (bot_like) - INFO - Going to like 2 medias.
+2021-02-19 16:57:44,795 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512118625031720436_45133369245/info/ returned response: <Response [200]>
+2021-02-19 16:57:45,151 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512118625031720436_45133369245/info/ returned response: <Response [200]>
+2021-02-19 16:57:45,495 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512118625031720436_45133369245/comments/ returned response: <Response [200]>
+2021-02-19 17:07:52,194 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512117217555624570_45398490050/info/ returned response: <Response [200]>
+2021-02-19 17:07:52,571 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512117217555624570_45398490050/info/ returned response: <Response [200]>
+2021-02-19 17:07:52,911 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512117217555624570_45398490050/comments/ returned response: <Response [200]>
+2021-02-19 17:08:02,915 - instabot version: 0.117.0 (bot_like) - INFO - DONE: Total liked 1 medias.
+2021-02-19 17:08:02,931 - instabot version: 0.117.0 (bot_like) - INFO - Going to like media with hashtag #россошькафе.
+2021-02-19 17:08:08,398 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошькафе/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-19 17:08:08,853 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: tags/search/?is_typeahead=true&q=россошькафе&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [200]>
+2021-02-19 17:08:08,856 - instabot version: 0.117.0 (bot_like) - INFO - Going to like 4 medias.
+2021-02-19 17:18:25,972 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511657801237674890_6197154609/info/ returned response: <Response [200]>
+2021-02-19 17:18:26,332 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511657801237674890_6197154609/info/ returned response: <Response [200]>
+2021-02-19 17:18:26,704 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511657801237674890_6197154609/comments/ returned response: <Response [200]>
+2021-02-19 17:18:27,056 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511657801237674890_6197154609/info/ returned response: <Response [200]>
+2021-02-19 17:18:27,057 - instabot version: 0.117.0 (api) - DEBUG - post data: {"inventory_source": "media_or_ad", "media_id": "2511657801237674890_6197154609", "radio_type": "wifi-none", "container_module": "feed_contextual_hashtag", "feed_position": "0", "is_carousel_bumped_post": "false", "device_id": "android-b75752550f1d6915", "hashtag_name": "\u0440\u043e\u0441\u0441\u043e\u0448\u044c\u043a\u0430\u0444\u0435", "hashtag_id": 17844591691096187, "_uuid": "33c60f2e-8787-4e0e-a423-171025b5da50", "_uid": "45426233253", "_csrftoken": "zPkGCgg1CGBBltUdrVA4QI7DWw6hd527"}
+2021-02-19 17:18:27,735 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/2511657801237674890_6197154609/like/ returned response: <Response [200]>
+2021-02-19 17:18:27,735 - instabot version: 0.117.0 (bot_like) - INFO - Liked media 2511657801237674890_6197154609.
+2021-02-19 17:26:25,152 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2494269189773055840_6087156013/info/ returned response: <Response [200]>
+2021-02-19 17:26:25,555 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2494269189773055840_6087156013/info/ returned response: <Response [200]>
+2021-02-19 17:26:25,952 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2494269189773055840_6087156013/comments/ returned response: <Response [200]>
+2021-02-19 17:36:08,084 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2490602856430600706_6197154609/info/ returned response: <Response [200]>
+2021-02-19 17:36:08,512 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2490602856430600706_6197154609/info/ returned response: <Response [200]>
+2021-02-19 17:36:08,947 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2490602856430600706_6197154609/comments/ returned response: <Response [200]>
+2021-02-19 17:41:13,375 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2485611784071586699_6087156013/info/ returned response: <Response [200]>
+2021-02-19 17:41:13,779 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2485611784071586699_6087156013/info/ returned response: <Response [200]>
+2021-02-19 17:41:14,223 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2485611784071586699_6087156013/comments/ returned response: <Response [200]>
+2021-02-19 17:41:24,226 - instabot version: 0.117.0 (bot_like) - INFO - DONE: Total liked 2 medias.
+2021-02-19 17:41:24,242 - instabot version: 0.117.0 (bot_like) - INFO - Going to like media with hashtag #россошьновости.
+2021-02-19 17:41:28,683 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошьновости/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-19 17:41:29,115 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: tags/search/?is_typeahead=true&q=россошьновости&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [200]>
+2021-02-19 17:41:29,117 - instabot version: 0.117.0 (bot_like) - INFO - Going to like 2 medias.
+2021-02-19 17:49:38,352 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512490837567083225_8712194367/info/ returned response: <Response [200]>
+2021-02-19 17:49:38,700 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512490837567083225_8712194367/info/ returned response: <Response [200]>
+2021-02-19 17:49:39,038 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512490837567083225_8712194367/comments/ returned response: <Response [200]>
+2021-02-19 17:58:58,679 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512348258007553099_8712194367/info/ returned response: <Response [200]>
+2021-02-19 17:58:59,040 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512348258007553099_8712194367/info/ returned response: <Response [200]>
+2021-02-19 17:58:59,435 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512348258007553099_8712194367/comments/ returned response: <Response [200]>
+2021-02-19 17:58:59,795 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2512348258007553099_8712194367/info/ returned response: <Response [200]>
+2021-02-19 17:58:59,796 - instabot version: 0.117.0 (api) - DEBUG - post data: {"inventory_source": "media_or_ad", "media_id": "2512348258007553099_8712194367", "radio_type": "wifi-none", "container_module": "feed_contextual_hashtag", "feed_position": "1", "is_carousel_bumped_post": "false", "device_id": "android-b75752550f1d6915", "hashtag_name": "\u0440\u043e\u0441\u0441\u043e\u0448\u044c\u043d\u043e\u0432\u043e\u0441\u0442\u0438", "hashtag_id": 17919723997013449, "_uuid": "33c60f2e-8787-4e0e-a423-171025b5da50", "_uid": "45426233253", "_csrftoken": "zPkGCgg1CGBBltUdrVA4QI7DWw6hd527"}
+2021-02-19 17:59:00,498 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/2512348258007553099_8712194367/like/ returned response: <Response [200]>
+2021-02-19 17:59:00,499 - instabot version: 0.117.0 (bot_like) - INFO - Liked media 2512348258007553099_8712194367.
+2021-02-19 17:59:00,540 - instabot version: 0.117.0 (bot_like) - INFO - DONE: Total liked 3 medias.
+2021-02-19 17:59:00,687 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/familyan.rossosh.checkpoint
+2021-02-19 17:59:00,800 - instabot version: 0.117.0 (bot) - INFO - Total likes: 3/72
+2021-02-19 17:59:00,801 - instabot version: 0.117.0 (bot) - INFO - Total requests: 808

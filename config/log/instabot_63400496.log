@@ -1,0 +1,35 @@
+2021-02-16 09:11:52,245 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2021-02-16 09:11:52,250 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\proka\AppData\Local\Programs\Python\Python38-32\lib\site-packages\instabot\bot\bot.py
+2021-02-16 09:11:52,252 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2021-02-16 09:11:52,253 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2021-02-16 09:11:52,254 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d9b7b868-1e47-4ad9-a1d5-508c20cbe5ec
+- uuid=9140f426-363f-4b0b-80cf-8b891668158a
+- client_session_id=0e653618-9c32-4aff-a988-a0bde1b4851e
+- device_id=android-48c570bbbb11421b
+2021-02-16 09:11:52,282 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2021-02-16 09:11:54,538 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2021-02-16 09:11:55,173 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2021-02-16 09:11:55,180 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'psevdoproger'!
+2021-02-16 09:11:55,181 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger.checkpoint
+2021-02-16 09:11:55,550 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/psevdoproger/usernameinfo/ returned response: <Response [200]>
+2021-02-16 09:11:56,432 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/45468866234/info/ returned response: <Response [200]>
+2021-02-16 09:11:57,138 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/45468866234/followers/?rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a returned response: <Response [200]>
+2021-02-16 09:11:57,557 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/45468866234/info/ returned response: <Response [200]>
+2021-02-16 09:11:57,930 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/45468866234/followers/?rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a returned response: <Response [200]>
+2021-02-16 09:11:58,228 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/34093229391/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [400]>
+2021-02-16 09:11:58,228 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Not authorized to view user","status":"fail"}'
+2021-02-16 09:11:58,229 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2021-02-16 09:11:58,230 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: Not authorized to view user
+2021-02-16 09:11:58,232 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2021-02-16 09:11:58,233 - instabot version: 0.117.0 (bot_get) - WARNING - This is a private account.
+2021-02-16 09:11:58,767 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/40132987041/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-16 09:11:58,771 - instabot version: 0.117.0 (bot_filter) - INFO - Received 10 medias.
+2021-02-16 09:11:58,772 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-16 09:11:59,127 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45687235052/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-16 09:11:59,128 - instabot version: 0.117.0 (bot_filter) - INFO - Received 0 medias.
+2021-02-16 09:11:59,129 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-16 09:11:59,158 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger.checkpoint
+2021-02-16 09:11:59,160 - instabot version: 0.117.0 (bot) - INFO - Total unfollows: 11/86
+2021-02-16 09:11:59,179 - instabot version: 0.117.0 (bot) - INFO - Total requests: 91

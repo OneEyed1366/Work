@@ -1,0 +1,85 @@
+2021-02-16 13:50:43,777 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2021-02-16 13:50:43,782 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\proka\AppData\Local\Programs\Python\Python38-32\lib\site-packages\instabot\bot\bot.py
+2021-02-16 13:50:43,804 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2021-02-16 13:50:43,805 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2021-02-16 13:50:43,805 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/familyan.rossosh_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=7807577f-5f74-4b42-8750-a1d357daae34
+- uuid=33c60f2e-8787-4e0e-a423-171025b5da50
+- client_session_id=14182096-2374-4fac-8e6d-7c56474db643
+- device_id=android-b75752550f1d6915
+2021-02-16 13:50:43,812 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2021-02-16 13:50:45,927 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2021-02-16 13:50:46,728 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2021-02-16 13:50:47,219 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2021-02-16 13:50:47,520 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2021-02-16 13:50:47,921 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/inbox/ returned response: <Response [200]>
+2021-02-16 13:50:48,551 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2021-02-16 13:50:49,355 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: news/inbox/?limited_activity=true&show_su=true returned response: <Response [200]>
+2021-02-16 13:50:49,641 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/profile_notice/ returned response: <Response [200]>
+2021-02-16 13:50:51,221 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: discover/explore/ returned response: <Response [200]>
+2021-02-16 13:50:51,230 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'familyan.rossosh'!
+2021-02-16 13:50:51,231 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/familyan.rossosh.checkpoint
+2021-02-16 13:50:51,945 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/familyan.rossosh/usernameinfo/ returned response: <Response [200]>
+2021-02-16 13:50:53,536 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/45426233253/info/ returned response: <Response [200]>
+2021-02-16 13:50:53,989 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/45426233253/following/?max_id=&ig_sig_key_version=4&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [200]>
+2021-02-16 13:50:58,982 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошь36/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-16 13:50:59,017 - instabot version: 0.117.0 (bot_filter) - INFO - Received 85 medias.
+2021-02-16 13:50:59,018 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 3 medias left.
+2021-02-16 13:51:02,070 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошь36/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-16 13:51:02,108 - instabot version: 0.117.0 (bot_filter) - INFO - Received 85 medias.
+2021-02-16 13:51:02,110 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 3 medias left.
+2021-02-16 13:51:09,422 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошь136/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-16 13:51:09,459 - instabot version: 0.117.0 (bot_filter) - INFO - Received 79 medias.
+2021-02-16 13:51:09,461 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 3 medias left.
+2021-02-16 13:51:13,386 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошь136/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-16 13:51:13,421 - instabot version: 0.117.0 (bot_filter) - INFO - Received 79 medias.
+2021-02-16 13:51:13,422 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 3 medias left.
+2021-02-16 13:51:17,195 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошь/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-16 13:51:17,228 - instabot version: 0.117.0 (bot_filter) - INFO - Received 77 medias.
+2021-02-16 13:51:17,229 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 5 medias left.
+2021-02-16 13:51:20,218 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошь/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-16 13:51:20,254 - instabot version: 0.117.0 (bot_filter) - INFO - Received 77 medias.
+2021-02-16 13:51:20,255 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 5 medias left.
+2021-02-16 13:51:25,049 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/риэлтор/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-16 13:51:25,093 - instabot version: 0.117.0 (bot_filter) - INFO - Received 86 medias.
+2021-02-16 13:51:25,094 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-16 13:51:31,005 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошьфото/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-16 13:51:31,037 - instabot version: 0.117.0 (bot_filter) - INFO - Received 86 medias.
+2021-02-16 13:51:31,038 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 5 medias left.
+2021-02-16 13:51:34,236 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошьфото/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-16 13:51:34,272 - instabot version: 0.117.0 (bot_filter) - INFO - Received 86 medias.
+2021-02-16 13:51:34,273 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 5 medias left.
+2021-02-16 13:51:41,469 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошьотдых/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-16 13:51:41,502 - instabot version: 0.117.0 (bot_filter) - INFO - Received 86 medias.
+2021-02-16 13:51:41,503 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-16 13:51:48,621 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошьподарки/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-16 13:51:48,655 - instabot version: 0.117.0 (bot_filter) - INFO - Received 86 medias.
+2021-02-16 13:51:48,656 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 3 medias left.
+2021-02-16 13:51:52,938 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошьподарки/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-16 13:51:52,984 - instabot version: 0.117.0 (bot_filter) - INFO - Received 86 medias.
+2021-02-16 13:51:52,985 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 3 medias left.
+2021-02-16 13:51:57,360 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошьцветы/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-16 13:51:57,438 - instabot version: 0.117.0 (bot_filter) - INFO - Received 83 medias.
+2021-02-16 13:51:57,440 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 10 medias left.
+2021-02-16 13:52:00,239 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошьцветы/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-16 13:52:00,273 - instabot version: 0.117.0 (bot_filter) - INFO - Received 83 medias.
+2021-02-16 13:52:00,275 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 10 medias left.
+2021-02-16 13:52:08,648 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошьмастеркласс/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-16 13:52:08,687 - instabot version: 0.117.0 (bot_filter) - INFO - Received 85 medias.
+2021-02-16 13:52:08,688 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-16 13:52:14,937 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошькафе/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-16 13:52:14,980 - instabot version: 0.117.0 (bot_filter) - INFO - Received 80 medias.
+2021-02-16 13:52:14,981 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 9 medias left.
+2021-02-16 13:52:19,210 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошькафе/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-16 13:52:19,249 - instabot version: 0.117.0 (bot_filter) - INFO - Received 80 medias.
+2021-02-16 13:52:19,251 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 9 medias left.
+2021-02-16 13:52:25,145 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошьновости/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-16 13:52:25,179 - instabot version: 0.117.0 (bot_filter) - INFO - Received 83 medias.
+2021-02-16 13:52:25,180 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 8 medias left.
+2021-02-16 13:52:28,250 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошьновости/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-16 13:52:28,289 - instabot version: 0.117.0 (bot_filter) - INFO - Received 83 medias.
+2021-02-16 13:52:28,291 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 8 medias left.
+2021-02-16 13:52:51,656 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2509527940327229122_4254451050/info/ returned response: <Response [200]>
+2021-02-16 13:52:51,669 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/familyan.rossosh.checkpoint
+2021-02-16 13:52:51,672 - instabot version: 0.117.0 (bot) - INFO - Total requests: 54

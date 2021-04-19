@@ -1,0 +1,250 @@
+2021-02-18 13:50:42,499 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2021-02-18 13:50:42,542 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\proka\AppData\Local\Programs\Python\Python38-32\lib\site-packages\instabot\bot\bot.py
+2021-02-18 13:50:42,544 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2021-02-18 13:50:42,545 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2021-02-18 13:50:42,545 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d9b7b868-1e47-4ad9-a1d5-508c20cbe5ec
+- uuid=9140f426-363f-4b0b-80cf-8b891668158a
+- client_session_id=9d5cc118-fc97-4381-b99d-de1fc978f29c
+- device_id=android-48c570bbbb11421b
+2021-02-18 13:50:42,558 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2021-02-18 13:50:43,905 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2021-02-18 13:50:44,530 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2021-02-18 13:50:44,537 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'psevdoproger'!
+2021-02-18 13:50:44,538 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger.checkpoint
+2021-02-18 13:50:44,946 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/psevdoproger/usernameinfo/ returned response: <Response [200]>
+2021-02-18 13:50:45,882 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/45468866234/info/ returned response: <Response [200]>
+2021-02-18 13:50:46,469 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/45468866234/following/?max_id=&ig_sig_key_version=4&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a returned response: <Response [200]>
+2021-02-18 13:50:46,477 - instabot version: 0.117.0 (bot_like) - INFO - Like following of: psevdoproger.
+2021-02-18 13:50:46,958 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/45468866234/info/ returned response: <Response [200]>
+2021-02-18 13:50:47,529 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/45468866234/following/?max_id=&ig_sig_key_version=4&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a returned response: <Response [200]>
+2021-02-18 13:50:47,537 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_8375116447's feed:
+2021-02-18 13:50:48,472 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/8375116447/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:50:48,479 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 13:50:48,480 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:50:48,481 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:50:48,532 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_11568730559's feed:
+2021-02-18 13:50:49,091 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/11568730559/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:50:49,094 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 13:50:49,095 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:50:49,105 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:50:49,113 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_6332838481's feed:
+2021-02-18 13:50:49,418 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/6332838481/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:50:49,418 - instabot version: 0.117.0 (bot_filter) - INFO - Received 0 medias.
+2021-02-18 13:50:49,419 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:50:49,425 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:50:49,427 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_9883255273's feed:
+2021-02-18 13:50:50,522 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/9883255273/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:50:50,532 - instabot version: 0.117.0 (bot_filter) - INFO - Received 35 medias.
+2021-02-18 13:50:50,533 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:50:50,534 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:50:50,552 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_12067816655's feed:
+2021-02-18 13:50:50,991 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/12067816655/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:50:50,993 - instabot version: 0.117.0 (bot_filter) - INFO - Received 5 medias.
+2021-02-18 13:50:50,994 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:50:51,000 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:50:51,001 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_45426233253's feed:
+2021-02-18 13:50:52,006 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45426233253/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:50:52,018 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 13:50:52,019 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:50:52,020 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:50:52,039 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_1431724849's feed:
+2021-02-18 13:50:52,681 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/1431724849/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:50:52,687 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 13:50:52,688 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:50:52,690 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:50:52,691 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_3001006101's feed:
+2021-02-18 13:50:53,208 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/3001006101/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:50:53,213 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 13:50:53,214 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:50:53,215 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:50:53,232 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_8341907421's feed:
+2021-02-18 13:50:53,902 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/8341907421/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:50:53,907 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 13:50:53,908 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:50:53,923 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:50:53,925 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_8316593356's feed:
+2021-02-18 13:50:54,336 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/8316593356/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:50:54,338 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 13:50:54,339 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:50:54,340 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:50:54,342 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_8317207842's feed:
+2021-02-18 13:50:54,799 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/8317207842/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:50:54,803 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 13:50:54,804 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:50:54,806 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:50:54,807 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_4124563134's feed:
+2021-02-18 13:50:55,278 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/4124563134/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:50:55,281 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 13:50:55,282 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:50:55,283 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:50:55,298 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_3218467572's feed:
+2021-02-18 13:50:55,695 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/3218467572/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:50:55,698 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 13:50:55,700 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:50:55,710 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:50:55,712 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_8415424454's feed:
+2021-02-18 13:50:56,152 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/8415424454/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:50:56,154 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 13:50:56,155 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:50:56,156 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:50:56,163 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_26038919389's feed:
+2021-02-18 13:50:56,667 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/26038919389/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:50:56,673 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 13:50:56,674 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:50:56,696 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:50:56,698 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_28614348239's feed:
+2021-02-18 13:50:57,908 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/28614348239/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:50:57,916 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 13:50:57,917 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:50:57,925 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:50:57,927 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_9455084983's feed:
+2021-02-18 13:50:58,606 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/9455084983/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:50:58,617 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 13:50:58,618 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:50:58,624 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:50:58,626 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_7097506766's feed:
+2021-02-18 13:50:59,032 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/7097506766/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:50:59,036 - instabot version: 0.117.0 (bot_filter) - INFO - Received 12 medias.
+2021-02-18 13:50:59,037 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:50:59,039 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:50:59,048 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_43691184526's feed:
+2021-02-18 13:51:00,031 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/43691184526/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:51:00,038 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 13:51:00,040 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:51:00,040 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:51:00,058 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_9773476139's feed:
+2021-02-18 13:51:01,433 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/9773476139/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:51:01,442 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 13:51:01,443 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:51:01,445 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:51:01,470 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_35860305945's feed:
+2021-02-18 13:51:02,176 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/35860305945/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:51:02,185 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 13:51:02,186 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:51:02,187 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:51:02,202 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_44980083590's feed:
+2021-02-18 13:51:02,666 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/44980083590/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:51:02,671 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 13:51:02,673 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:51:02,674 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:51:02,697 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_44822754343's feed:
+2021-02-18 13:51:03,727 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/44822754343/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:51:03,739 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 13:51:03,740 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:51:03,757 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:51:03,759 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_4044417560's feed:
+2021-02-18 13:51:04,398 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/4044417560/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:51:04,415 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 13:51:04,416 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:51:04,432 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:51:04,434 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_40924321026's feed:
+2021-02-18 13:51:05,243 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/40924321026/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:51:05,254 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 13:51:05,255 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:51:05,262 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:51:05,264 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_5580324684's feed:
+2021-02-18 13:51:06,096 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/5580324684/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:51:06,101 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 13:51:06,102 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 3 medias left.
+2021-02-18 13:51:06,110 - instabot version: 0.117.0 (bot_like) - INFO - Going to like 3 medias.
+2021-02-18 13:51:06,460 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2506981060068721086_5580324684/info/ returned response: <Response [200]>
+2021-02-18 13:51:06,792 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2506981060068721086_5580324684/info/ returned response: <Response [200]>
+2021-02-18 13:51:07,107 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2506981060068721086_5580324684/comments/ returned response: <Response [200]>
+2021-02-18 13:51:07,452 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2506981060068721086_5580324684/info/ returned response: <Response [200]>
+2021-02-18 13:51:07,453 - instabot version: 0.117.0 (api) - DEBUG - post data: {"inventory_source": "media_or_ad", "media_id": "2506981060068721086_5580324684", "radio_type": "wifi-none", "container_module": "feed_timeline", "feed_position": "0", "is_carousel_bumped_post": "false", "device_id": "android-48c570bbbb11421b", "_uuid": "9140f426-363f-4b0b-80cf-8b891668158a", "_uid": "45468866234", "_csrftoken": "OmwvkJF5AXAueMXiOLifVzRrijNS9SzG"}
+2021-02-18 13:51:08,385 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/2506981060068721086_5580324684/like/ returned response: <Response [200]>
+2021-02-18 13:51:08,385 - instabot version: 0.117.0 (bot_like) - INFO - Liked media 2506981060068721086_5580324684.
+2021-02-18 13:55:19,659 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2504189444079508129_5580324684/info/ returned response: <Response [200]>
+2021-02-18 13:55:19,996 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2504189444079508129_5580324684/info/ returned response: <Response [200]>
+2021-02-18 13:55:20,308 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2504189444079508129_5580324684/comments/ returned response: <Response [200]>
+2021-02-18 13:55:20,639 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2504189444079508129_5580324684/info/ returned response: <Response [200]>
+2021-02-18 13:55:20,640 - instabot version: 0.117.0 (api) - DEBUG - post data: {"inventory_source": "media_or_ad", "media_id": "2504189444079508129_5580324684", "radio_type": "wifi-none", "container_module": "feed_timeline", "feed_position": "1", "is_carousel_bumped_post": "false", "device_id": "android-48c570bbbb11421b", "_uuid": "9140f426-363f-4b0b-80cf-8b891668158a", "_uid": "45468866234", "_csrftoken": "OmwvkJF5AXAueMXiOLifVzRrijNS9SzG"}
+2021-02-18 13:55:21,260 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/2504189444079508129_5580324684/like/ returned response: <Response [200]>
+2021-02-18 13:55:21,260 - instabot version: 0.117.0 (bot_like) - INFO - Liked media 2504189444079508129_5580324684.
+2021-02-18 13:56:47,758 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2503412424701896206_5580324684/info/ returned response: <Response [200]>
+2021-02-18 13:56:48,124 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2503412424701896206_5580324684/info/ returned response: <Response [200]>
+2021-02-18 13:56:48,472 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2503412424701896206_5580324684/comments/ returned response: <Response [200]>
+2021-02-18 13:56:48,840 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2503412424701896206_5580324684/info/ returned response: <Response [200]>
+2021-02-18 13:56:48,841 - instabot version: 0.117.0 (api) - DEBUG - post data: {"inventory_source": "media_or_ad", "media_id": "2503412424701896206_5580324684", "radio_type": "wifi-none", "container_module": "feed_timeline", "feed_position": "2", "is_carousel_bumped_post": "false", "device_id": "android-48c570bbbb11421b", "_uuid": "9140f426-363f-4b0b-80cf-8b891668158a", "_uid": "45468866234", "_csrftoken": "OmwvkJF5AXAueMXiOLifVzRrijNS9SzG"}
+2021-02-18 13:56:49,411 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/2503412424701896206_5580324684/like/ returned response: <Response [200]>
+2021-02-18 13:56:49,411 - instabot version: 0.117.0 (bot_like) - INFO - Liked media 2503412424701896206_5580324684.
+2021-02-18 13:56:49,451 - instabot version: 0.117.0 (bot_like) - INFO - DONE: Total liked 3 medias.
+2021-02-18 13:56:49,453 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_2075059173's feed:
+2021-02-18 13:56:50,392 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/2075059173/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:56:50,404 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 13:56:50,405 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 13:56:50,433 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 13:56:50,435 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_31613613202's feed:
+2021-02-18 13:56:51,026 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/31613613202/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 13:56:51,031 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 13:56:51,033 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 1 medias left.
+2021-02-18 13:56:51,034 - instabot version: 0.117.0 (bot_like) - INFO - Going to like 1 medias.
+2021-02-18 14:01:12,695 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511314424861772548_31613613202/info/ returned response: <Response [200]>
+2021-02-18 14:01:13,034 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511314424861772548_31613613202/info/ returned response: <Response [200]>
+2021-02-18 14:01:13,617 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511314424861772548_31613613202/comments/ returned response: <Response [200]>
+2021-02-18 14:01:13,956 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511314424861772548_31613613202/info/ returned response: <Response [200]>
+2021-02-18 14:01:13,957 - instabot version: 0.117.0 (api) - DEBUG - post data: {"inventory_source": "media_or_ad", "media_id": "2511314424861772548_31613613202", "radio_type": "wifi-none", "container_module": "feed_timeline", "feed_position": "0", "is_carousel_bumped_post": "false", "device_id": "android-48c570bbbb11421b", "_uuid": "9140f426-363f-4b0b-80cf-8b891668158a", "_uid": "45468866234", "_csrftoken": "OmwvkJF5AXAueMXiOLifVzRrijNS9SzG"}
+2021-02-18 14:01:14,717 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/2511314424861772548_31613613202/like/ returned response: <Response [200]>
+2021-02-18 14:01:14,718 - instabot version: 0.117.0 (bot_like) - INFO - Liked media 2511314424861772548_31613613202.
+2021-02-18 14:01:14,760 - instabot version: 0.117.0 (bot_like) - INFO - DONE: Total liked 4 medias.
+2021-02-18 14:01:14,762 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_44737054165's feed:
+2021-02-18 14:01:15,215 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/44737054165/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 14:01:15,219 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 14:01:15,220 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 1 medias left.
+2021-02-18 14:01:15,228 - instabot version: 0.117.0 (bot_like) - INFO - Going to like 1 medias.
+2021-02-18 14:03:07,434 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2509919460987794672_44737054165/info/ returned response: <Response [200]>
+2021-02-18 14:03:07,795 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2509919460987794672_44737054165/info/ returned response: <Response [200]>
+2021-02-18 14:03:08,203 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2509919460987794672_44737054165/comments/ returned response: <Response [200]>
+2021-02-18 14:03:08,575 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2509919460987794672_44737054165/info/ returned response: <Response [200]>
+2021-02-18 14:03:08,576 - instabot version: 0.117.0 (api) - DEBUG - post data: {"inventory_source": "media_or_ad", "media_id": "2509919460987794672_44737054165", "radio_type": "wifi-none", "container_module": "feed_timeline", "feed_position": "0", "is_carousel_bumped_post": "false", "device_id": "android-48c570bbbb11421b", "_uuid": "9140f426-363f-4b0b-80cf-8b891668158a", "_uid": "45468866234", "_csrftoken": "OmwvkJF5AXAueMXiOLifVzRrijNS9SzG"}
+2021-02-18 14:03:09,249 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/2509919460987794672_44737054165/like/ returned response: <Response [200]>
+2021-02-18 14:03:09,250 - instabot version: 0.117.0 (bot_like) - INFO - Liked media 2509919460987794672_44737054165.
+2021-02-18 14:03:09,280 - instabot version: 0.117.0 (bot_like) - INFO - DONE: Total liked 5 medias.
+2021-02-18 14:03:09,282 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_45068219964's feed:
+2021-02-18 14:03:10,170 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/45068219964/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 14:03:10,177 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 14:03:10,178 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 3 medias left.
+2021-02-18 14:03:10,179 - instabot version: 0.117.0 (bot_like) - INFO - Going to like 3 medias.
+2021-02-18 14:04:45,036 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2494955182308343342_45068219964/info/ returned response: <Response [200]>
+2021-02-18 14:04:45,412 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2494955182308343342_45068219964/info/ returned response: <Response [200]>
+2021-02-18 14:04:45,770 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2494955182308343342_45068219964/comments/ returned response: <Response [200]>
+2021-02-18 14:04:46,198 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2494955182308343342_45068219964/info/ returned response: <Response [200]>
+2021-02-18 14:04:46,199 - instabot version: 0.117.0 (api) - DEBUG - post data: {"inventory_source": "media_or_ad", "media_id": "2494955182308343342_45068219964", "radio_type": "wifi-none", "container_module": "feed_timeline", "feed_position": "0", "is_carousel_bumped_post": "false", "device_id": "android-48c570bbbb11421b", "_uuid": "9140f426-363f-4b0b-80cf-8b891668158a", "_uid": "45468866234", "_csrftoken": "OmwvkJF5AXAueMXiOLifVzRrijNS9SzG"}
+2021-02-18 14:04:46,972 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/2494955182308343342_45068219964/like/ returned response: <Response [200]>
+2021-02-18 14:04:46,973 - instabot version: 0.117.0 (bot_like) - INFO - Liked media 2494955182308343342_45068219964.
+2021-02-18 14:08:59,084 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2494460299818738402_45068219964/info/ returned response: <Response [200]>
+2021-02-18 14:08:59,419 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2494460299818738402_45068219964/info/ returned response: <Response [200]>
+2021-02-18 14:08:59,736 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2494460299818738402_45068219964/comments/ returned response: <Response [200]>
+2021-02-18 14:09:00,070 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2494460299818738402_45068219964/info/ returned response: <Response [200]>
+2021-02-18 14:09:00,071 - instabot version: 0.117.0 (api) - DEBUG - post data: {"inventory_source": "media_or_ad", "media_id": "2494460299818738402_45068219964", "radio_type": "wifi-none", "container_module": "feed_timeline", "feed_position": "1", "is_carousel_bumped_post": "false", "device_id": "android-48c570bbbb11421b", "_uuid": "9140f426-363f-4b0b-80cf-8b891668158a", "_uid": "45468866234", "_csrftoken": "OmwvkJF5AXAueMXiOLifVzRrijNS9SzG"}
+2021-02-18 14:09:00,939 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/2494460299818738402_45068219964/like/ returned response: <Response [200]>
+2021-02-18 14:09:00,939 - instabot version: 0.117.0 (bot_like) - INFO - Liked media 2494460299818738402_45068219964.
+2021-02-18 14:10:59,245 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2494366477424137434_45068219964/info/ returned response: <Response [200]>
+2021-02-18 14:10:59,642 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2494366477424137434_45068219964/info/ returned response: <Response [200]>
+2021-02-18 14:11:00,008 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2494366477424137434_45068219964/comments/ returned response: <Response [200]>
+2021-02-18 14:11:00,352 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2494366477424137434_45068219964/info/ returned response: <Response [200]>
+2021-02-18 14:11:00,353 - instabot version: 0.117.0 (api) - DEBUG - post data: {"inventory_source": "media_or_ad", "media_id": "2494366477424137434_45068219964", "radio_type": "wifi-none", "container_module": "feed_timeline", "feed_position": "2", "is_carousel_bumped_post": "false", "device_id": "android-48c570bbbb11421b", "_uuid": "9140f426-363f-4b0b-80cf-8b891668158a", "_uid": "45468866234", "_csrftoken": "OmwvkJF5AXAueMXiOLifVzRrijNS9SzG"}
+2021-02-18 14:11:01,243 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/2494366477424137434_45068219964/like/ returned response: <Response [200]>
+2021-02-18 14:11:01,243 - instabot version: 0.117.0 (bot_like) - INFO - Liked media 2494366477424137434_45068219964.
+2021-02-18 14:11:01,782 - instabot version: 0.117.0 (bot_like) - INFO - DONE: Total liked 8 medias.
+2021-02-18 14:11:01,973 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_44748846021's feed:
+2021-02-18 14:11:03,289 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/44748846021/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 14:11:03,299 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 14:11:03,301 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 14:11:03,302 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 14:11:03,304 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_43381901771's feed:
+2021-02-18 14:11:04,069 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/43381901771/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 14:11:04,075 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 14:11:04,076 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 0 medias left.
+2021-02-18 14:11:04,076 - instabot version: 0.117.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2021-02-18 14:11:04,078 - instabot version: 0.117.0 (bot_like) - INFO - Liking user_4464934942's feed:
+2021-02-18 14:11:04,985 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/user/4464934942/?max_id=&min_timestamp=None&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true returned response: <Response [200]>
+2021-02-18 14:11:04,991 - instabot version: 0.117.0 (bot_filter) - INFO - Received 18 medias.
+2021-02-18 14:11:04,993 - instabot version: 0.117.0 (bot_filter) - INFO - After filtration 5 medias left.
+2021-02-18 14:11:05,007 - instabot version: 0.117.0 (bot_like) - INFO - Going to like 4 medias.
+2021-02-18 14:11:45,733 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger.checkpoint
+2021-02-18 14:11:45,735 - instabot version: 0.117.0 (bot) - INFO - Total likes: 8/53
+2021-02-18 14:11:45,742 - instabot version: 0.117.0 (bot) - INFO - Total unfollows: 16/66
+2021-02-18 14:11:45,749 - instabot version: 0.117.0 (bot) - INFO - Total requests: 2254

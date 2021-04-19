@@ -1,0 +1,24 @@
+2020-11-21 19:38:36,646 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-11-21 19:38:36,651 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\proka\AppData\Local\Programs\Python\Python38-32\lib\site-packages\instabot\bot\bot.py
+2020-11-21 19:38:36,656 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-11-21 19:38:36,657 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-11-21 19:38:36,657 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/familyprokson_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=e1f4ce35-e1c5-4015-a54a-0bbab7f0fbb4
+- uuid=c4c3399e-18d0-48e7-b009-50a0464e568c
+- client_session_id=26a0e629-3c2b-4d7b-8f31-9dad3bb9f2a1
+- device_id=android-07d5a1da6610692b
+2020-11-21 19:38:36,749 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-11-21 19:38:39,102 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-11-21 19:38:40,411 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-11-21 19:38:40,915 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-11-21 19:38:41,413 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-11-21 19:38:43,256 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/inbox/ returned response: <Response [200]>
+2020-11-21 19:38:44,290 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2020-11-21 19:38:45,847 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: news/inbox/?limited_activity=true&show_su=true returned response: <Response [200]>
+2020-11-21 19:38:46,327 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/profile_notice/ returned response: <Response [200]>
+2020-11-21 19:38:47,204 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: discover/explore/ returned response: <Response [200]>
+2020-11-21 19:38:47,214 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'familyprokson'!
+2020-11-21 19:38:47,215 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/familyprokson.checkpoint
+2020-11-21 19:38:51,345 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/familyprokson.checkpoint
+2020-11-21 19:38:51,348 - instabot version: 0.117.0 (bot) - INFO - Total requests: 35

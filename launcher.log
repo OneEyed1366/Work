@@ -1,0 +1,22 @@
+2020/06/01 14:33:26:934 INFO Using appdir from default (cwd): C:\Users\Андрей\iCloudDrive\iCloud~com~omz-software~Pythonista3
+2020/06/01 14:33:26:936 INFO ------------------ VM Info ------------------
+2020/06/01 14:33:26:936 INFO -- OS Name: Windows 7
+2020/06/01 14:33:26:937 INFO -- OS Arch: x86
+2020/06/01 14:33:26:937 INFO -- OS Vers: 6.1
+2020/06/01 14:33:26:937 INFO -- Java Vers: 1.8.0_251
+2020/06/01 14:33:26:937 INFO -- Java Home: C:\Program Files\Java\jre1.8.0_251
+2020/06/01 14:33:26:937 INFO -- User Name: Андрей
+2020/06/01 14:33:26:938 INFO -- User Home: C:\Users\Андрей
+2020/06/01 14:33:26:938 INFO -- Cur dir: C:\Users\Андрей\iCloudDrive\iCloud~com~omz-software~Pythonista3
+2020/06/01 14:33:26:938 INFO ---------------------------------------------
+2020/06/01 14:33:27:174 INFO Getdown starting [version=1.8.6, built=2019-06-04 15:27]
+2020/06/01 14:33:27:189 INFO Checking whether we need to use a proxy...
+2020/06/01 14:33:27:189 INFO Found no getdown.txt file [appdir=C:\Users\Андрей\iCloudDrive\iCloud~com~omz-software~Pythonista3]
+2020/06/01 14:33:27:189 INFO Using 'appbase' from bootstrap config [appbase=null]
+Exception in thread "Getdown" java.lang.RuntimeException: m.missing_appbase
+	at com.threerings.getdown.data.Application.initBase(Unknown Source)
+	at com.threerings.getdown.data.Application.init(Unknown Source)
+	at com.threerings.getdown.launcher.Getdown.readConfig(Unknown Source)
+	at com.threerings.getdown.launcher.Getdown.detectProxy(Unknown Source)
+	at com.threerings.getdown.launcher.Getdown.run(Unknown Source)
+	at com.threerings.getdown.launcher.a.run(Unknown Source)

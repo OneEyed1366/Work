@@ -1,0 +1,33 @@
+2021-02-18 13:41:11,563 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2021-02-18 13:41:11,583 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\proka\AppData\Local\Programs\Python\Python38-32\lib\site-packages\instabot\bot\bot.py
+2021-02-18 13:41:11,585 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2021-02-18 13:41:11,586 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2021-02-18 13:41:11,587 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d9b7b868-1e47-4ad9-a1d5-508c20cbe5ec
+- uuid=9140f426-363f-4b0b-80cf-8b891668158a
+- client_session_id=9d5cc118-fc97-4381-b99d-de1fc978f29c
+- device_id=android-48c570bbbb11421b
+2021-02-18 13:41:11,668 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2021-02-18 13:41:13,127 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2021-02-18 13:41:13,760 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2021-02-18 13:41:13,769 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'psevdoproger'!
+2021-02-18 13:41:13,770 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger.checkpoint
+2021-02-18 13:41:14,216 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/psevdoproger/usernameinfo/ returned response: <Response [200]>
+2021-02-18 13:41:14,872 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/45468866234/info/ returned response: <Response [200]>
+2021-02-18 13:41:15,375 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/45468866234/following/?max_id=&ig_sig_key_version=4&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a returned response: <Response [200]>
+2021-02-18 13:41:15,400 - instabot version: 0.117.0 (bot_like) - INFO - Going to like media with hashtag #python.
+2021-02-18 13:41:18,908 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/python/?max_id=&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a&ranked_content=true& returned response: <Response [200]>
+2021-02-18 13:41:19,537 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: tags/search/?is_typeahead=true&q=python&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a returned response: <Response [200]>
+2021-02-18 13:41:19,540 - instabot version: 0.117.0 (bot_like) - INFO - Going to like 74 medias.
+2021-02-18 13:41:19,890 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511757643463415426_46144688046/info/ returned response: <Response [200]>
+2021-02-18 13:41:20,234 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511757643463415426_46144688046/info/ returned response: <Response [200]>
+2021-02-18 13:41:20,559 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511757643463415426_46144688046/comments/ returned response: <Response [200]>
+2021-02-18 13:47:32,704 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511757439637033211_46144688046/info/ returned response: <Response [400]>
+2021-02-18 13:47:32,704 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Media not found or unavailable","status":"fail"}'
+2021-02-18 13:47:32,704 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2021-02-18 13:47:32,719 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: Media not found or unavailable
+2021-02-18 13:47:32,758 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2021-02-18 13:49:28,429 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger.checkpoint
+2021-02-18 13:49:28,431 - instabot version: 0.117.0 (bot) - INFO - Total unfollows: 15/63
+2021-02-18 13:49:28,452 - instabot version: 0.117.0 (bot) - INFO - Total requests: 2158

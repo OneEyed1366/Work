@@ -1,0 +1,79 @@
+2021-02-16 11:19:11,789 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2021-02-16 11:19:11,804 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\proka\AppData\Local\Programs\Python\Python38-32\lib\site-packages\instabot\bot\bot.py
+2021-02-16 11:19:11,806 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2021-02-16 11:19:11,807 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2021-02-16 11:19:11,807 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d9b7b868-1e47-4ad9-a1d5-508c20cbe5ec
+- uuid=9140f426-363f-4b0b-80cf-8b891668158a
+- client_session_id=517321b5-aa11-4eb3-a2f5-a35fcd86fcab
+- device_id=android-48c570bbbb11421b
+2021-02-16 11:19:11,834 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2021-02-16 11:19:12,480 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [403]>
+2021-02-16 11:19:12,480 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"user_has_logged_out","logout_reason":9,"status":"fail"}'
+2021-02-16 11:19:12,481 - instabot version: 0.117.0 (api) - ERROR - Request returns 403 error!
+2021-02-16 11:19:12,844 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [403]>
+2021-02-16 11:19:12,845 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"user_has_logged_out","logout_reason":9,"status":"fail"}'
+2021-02-16 11:19:12,845 - instabot version: 0.117.0 (api) - ERROR - Request returns 403 error!
+2021-02-16 11:19:12,849 - instabot version: 0.117.0 (api) - INFO - Login flow failed, the cookie is broken. Relogin again.
+2021-02-16 11:19:12,874 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2021-02-16 11:19:12,874 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2021-02-16 11:19:12,875 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d9b7b868-1e47-4ad9-a1d5-508c20cbe5ec
+- uuid=9140f426-363f-4b0b-80cf-8b891668158a
+- client_session_id=517321b5-aa11-4eb3-a2f5-a35fcd86fcab
+- device_id=android-48c570bbbb11421b
+2021-02-16 11:19:12,943 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2021-02-16 11:19:13,319 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2021-02-16 11:19:13,630 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2021-02-16 11:19:13,942 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2021-02-16 11:19:14,251 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2021-02-16 11:19:16,176 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2021-02-16 11:19:16,177 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"","two_factor_required":true,"two_factor_info":{"username":"psevdoproger","sms_two_factor_on":true,"totp_two_factor_on":false,"obfuscated_phone_number":"9507","two_factor_identifier":"rRpeXwxAij","show_messenger_code_option":false,"show_new_login_screen":true,"show_trusted_device_option":true,"should_opt_in_trusted_device_option":true,"pending_trusted_notification":false,"sms_not_allowed_reason":null,"phone_verification_settings":{"max_sms_count":2,"resend_sms_delay_sec":60,"robocall_count_down_time_sec":30,"robocall_after_max_sms":true}},"phone_verification_settings":{"max_sms_count":2,"resend_sms_delay_sec":60,"robocall_count_down_time_sec":30,"robocall_after_max_sms":true},"status":"fail","error_type":"two_factor_required"}'
+2021-02-16 11:19:16,177 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2021-02-16 11:19:16,179 - instabot version: 0.117.0 (api) - INFO - Two-factor authentication required
+2021-02-16 11:19:39,870 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'psevdoproger'!
+2021-02-16 11:19:39,872 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: True
+2021-02-16 11:19:40,199 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2021-02-16 11:19:40,501 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2021-02-16 11:19:40,794 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: zr/token/result/?device_id=android-48c570bbbb11421b&token_hash=&custom_device_id=android-48c570bbbb11421b&fetch_reason=token_expired returned response: <Response [200]>
+2021-02-16 11:19:41,100 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: multiple_accounts/get_account_family/ returned response: <Response [200]>
+2021-02-16 11:19:41,407 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2021-02-16 11:19:42,125 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: igtv/browse_feed/?prefetch=1 returned response: <Response [200]>
+2021-02-16 11:19:42,426 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: creatives/ar_class/ returned response: <Response [200]>
+2021-02-16 11:19:43,222 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2021-02-16 11:19:45,879 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2021-02-16 11:19:46,204 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/blocked/ returned response: <Response [200]>
+2021-02-16 11:19:46,863 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: news/inbox/ returned response: <Response [200]>
+2021-02-16 11:19:47,176 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: loom/fetch_config/ returned response: <Response [200]>
+2021-02-16 11:19:48,345 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: scores/bootstrap/users/?surfaces=["autocomplete_user_list","coefficient_besties_list_ranking","coefficient_rank_recipient_user_suggestion","coefficient_ios_section_test_bootstrap_ranking","coefficient_direct_recipients_ranking_variant_2"] returned response: <Response [200]>
+2021-02-16 11:19:48,663 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: business/eligibility/get_monetization_products_eligibility_data/?product_types=branded_content returned response: <Response [200]>
+2021-02-16 11:19:48,955 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: business/branded_content/should_require_professional_account/ returned response: <Response [200]>
+2021-02-16 11:19:49,253 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: linked_accounts/get_linkage_status/ returned response: <Response [200]>
+2021-02-16 11:19:49,563 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: locations/request_country/ returned response: <Response [200]>
+2021-02-16 11:19:49,854 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: qp/get_cooldowns/?signed_body=signed_body=4b9c516a5410a3bc128e09c6104a7f042146b9c2023870560c63a43a7f66781c.4&ig_sig_key_version=4&ig_sig_key_version=4 returned response: <Response [200]>
+2021-02-16 11:19:50,151 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/arlink_download_info/?version_override=2.2.1 returned response: <Response [200]>
+2021-02-16 11:19:50,565 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/45468866234/info/ returned response: <Response [200]>
+2021-02-16 11:19:51,110 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2021-02-16 11:19:51,524 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&thread_message_limit=10&persistentBadging=true&limit=20 returned response: <Response [200]>
+2021-02-16 11:19:51,865 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&persistentBadging=true&limit=0 returned response: <Response [200]>
+2021-02-16 11:19:53,946 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: discover/topical_explore/?is_prefetch=true&omit_cover_media=true&use_sectional_payload=true&timezone_offset=0&session_id=517321b5-aa11-4eb3-a2f5-a35fcd86fcab&include_fixed_destinations=true returned response: <Response [200]>
+2021-02-16 11:19:54,258 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: notifications/badge/ returned response: <Response [200]>
+2021-02-16 11:19:54,643 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qp/batch_fetch/ returned response: <Response [200]>
+2021-02-16 11:19:54,646 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger.checkpoint
+2021-02-16 11:19:55,048 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/psevdoproger/usernameinfo/ returned response: <Response [200]>
+2021-02-16 11:19:55,656 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/45468866234/info/ returned response: <Response [200]>
+2021-02-16 11:19:56,234 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/45468866234/following/?max_id=&ig_sig_key_version=4&rank_token=45468866234_9140f426-363f-4b0b-80cf-8b891668158a returned response: <Response [200]>
+2021-02-16 11:20:09,299 - instabot version: 0.117.0 (api_photo) - ERROR - Photo Upload failed with the following response: <Response [403]>
+2021-02-16 11:20:09,301 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'Данные для работы\Социалочка\Посты\Inst\4.jpeg' is not uploaded.
+2021-02-16 11:20:13,806 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/logout/ returned response: <Response [200]>
+2021-02-16 11:20:13,807 - instabot version: 0.117.0 (bot) - INFO - Bot stopped. Worked: 2:03:54.573998
+2021-02-16 11:20:13,808 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger.checkpoint
+2021-02-16 11:20:13,811 - instabot version: 0.117.0 (bot) - INFO - Total follows: 4/55
+2021-02-16 11:20:13,830 - instabot version: 0.117.0 (bot) - INFO - Total unfollows: 3/68
+2021-02-16 11:20:13,831 - instabot version: 0.117.0 (bot) - INFO - Total requests: 724
+2021-02-16 11:20:13,837 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/psevdoproger.checkpoint
+2021-02-16 11:20:13,838 - instabot version: 0.117.0 (bot) - INFO - Total follows: 4/55
+2021-02-16 11:20:13,839 - instabot version: 0.117.0 (bot) - INFO - Total unfollows: 3/68
+2021-02-16 11:20:13,863 - instabot version: 0.117.0 (bot) - INFO - Total requests: 724

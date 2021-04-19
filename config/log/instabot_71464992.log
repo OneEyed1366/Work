@@ -1,0 +1,173 @@
+2021-02-18 14:43:43,271 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2021-02-18 14:43:43,272 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\proka\AppData\Local\Programs\Python\Python38-32\lib\site-packages\instabot\bot\bot.py
+2021-02-18 14:43:43,275 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2021-02-18 14:43:43,275 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2021-02-18 14:43:43,276 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/familyan.rossosh_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=7807577f-5f74-4b42-8750-a1d357daae34
+- uuid=33c60f2e-8787-4e0e-a423-171025b5da50
+- client_session_id=d0af9ee0-38c8-4a88-9536-dabfe4cc231e
+- device_id=android-b75752550f1d6915
+2021-02-18 14:43:43,297 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2021-02-18 14:43:45,606 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2021-02-18 14:43:46,719 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2021-02-18 14:43:46,727 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'familyan.rossosh'!
+2021-02-18 14:43:46,728 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/familyan.rossosh.checkpoint
+2021-02-18 14:43:47,523 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/familyan.rossosh/usernameinfo/ returned response: <Response [200]>
+2021-02-18 14:43:48,861 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/45426233253/info/ returned response: <Response [200]>
+2021-02-18 14:43:49,323 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/45426233253/following/?max_id=&ig_sig_key_version=4&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [200]>
+2021-02-18 14:43:50,112 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/45426233253/info/ returned response: <Response [200]>
+2021-02-18 14:43:50,558 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/45426233253/following/?max_id=&ig_sig_key_version=4&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [200]>
+2021-02-18 14:43:50,573 - instabot version: 0.117.0 (bot_like) - INFO - Going to like media with hashtag #россошь36.
+2021-02-18 14:43:54,681 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошь36/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-18 14:43:55,219 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: tags/search/?is_typeahead=true&q=россошь36&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [200]>
+2021-02-18 14:43:55,221 - instabot version: 0.117.0 (bot_like) - INFO - Going to like 3 medias.
+2021-02-18 14:43:55,593 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511720358132752850_4254451050/info/ returned response: <Response [200]>
+2021-02-18 14:43:55,948 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511720358132752850_4254451050/info/ returned response: <Response [200]>
+2021-02-18 14:43:56,329 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511720358132752850_4254451050/comments/ returned response: <Response [200]>
+2021-02-18 14:50:41,140 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511685487662204978_8444767434/info/ returned response: <Response [200]>
+2021-02-18 14:50:41,545 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511685487662204978_8444767434/info/ returned response: <Response [200]>
+2021-02-18 14:50:42,103 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511685487662204978_8444767434/comments/ returned response: <Response [200]>
+2021-02-18 14:54:26,859 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511657801237674890_6197154609/info/ returned response: <Response [200]>
+2021-02-18 14:54:27,215 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511657801237674890_6197154609/info/ returned response: <Response [200]>
+2021-02-18 14:54:27,603 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511657801237674890_6197154609/comments/ returned response: <Response [200]>
+2021-02-18 14:54:37,606 - instabot version: 0.117.0 (bot_like) - INFO - DONE: Total liked 0 medias.
+2021-02-18 14:54:37,608 - instabot version: 0.117.0 (bot_like) - INFO - Going to like media with hashtag #россошь136.
+2021-02-18 14:54:42,069 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошь136/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-18 14:54:42,511 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: tags/search/?is_typeahead=true&q=россошь136&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [200]>
+2021-02-18 14:54:42,513 - instabot version: 0.117.0 (bot_like) - INFO - Going to like 3 medias.
+2021-02-18 14:57:28,644 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2510444754229824113_6170676081/info/ returned response: <Response [200]>
+2021-02-18 14:57:29,000 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2510444754229824113_6170676081/info/ returned response: <Response [200]>
+2021-02-18 14:57:29,485 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2510444754229824113_6170676081/comments/ returned response: <Response [200]>
+2021-02-18 15:01:10,115 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2510346345733088032_1419260998/info/ returned response: <Response [200]>
+2021-02-18 15:01:10,502 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2510346345733088032_1419260998/info/ returned response: <Response [200]>
+2021-02-18 15:01:10,898 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2510346345733088032_1419260998/comments/ returned response: <Response [200]>
+2021-02-18 15:09:22,981 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2505952306057389998_1933622615/info/ returned response: <Response [200]>
+2021-02-18 15:09:23,371 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2505952306057389998_1933622615/info/ returned response: <Response [200]>
+2021-02-18 15:09:23,708 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2505952306057389998_1933622615/comments/ returned response: <Response [200]>
+2021-02-18 15:09:33,722 - instabot version: 0.117.0 (bot_like) - INFO - DONE: Total liked 0 medias.
+2021-02-18 15:09:33,724 - instabot version: 0.117.0 (bot_like) - INFO - Going to like media with hashtag #россошь.
+2021-02-18 15:09:37,187 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошь/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-18 15:09:37,675 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: tags/search/?is_typeahead=true&q=россошь&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [200]>
+2021-02-18 15:09:37,678 - instabot version: 0.117.0 (bot_like) - INFO - Going to like 3 medias.
+2021-02-18 15:13:09,833 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511801827035207357_6868746634/info/ returned response: <Response [200]>
+2021-02-18 15:13:10,175 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511801827035207357_6868746634/info/ returned response: <Response [200]>
+2021-02-18 15:13:10,575 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511801827035207357_6868746634/comments/ returned response: <Response [200]>
+2021-02-18 15:21:26,767 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511797605284500954_5944786055/info/ returned response: <Response [200]>
+2021-02-18 15:21:27,129 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511797605284500954_5944786055/info/ returned response: <Response [200]>
+2021-02-18 15:21:27,497 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511797605284500954_5944786055/comments/ returned response: <Response [200]>
+2021-02-18 15:29:30,016 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511791172588822300_31106265561/info/ returned response: <Response [200]>
+2021-02-18 15:29:30,597 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511791172588822300_31106265561/info/ returned response: <Response [200]>
+2021-02-18 15:29:30,929 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511791172588822300_31106265561/comments/ returned response: <Response [200]>
+2021-02-18 15:29:40,946 - instabot version: 0.117.0 (bot_like) - INFO - DONE: Total liked 0 medias.
+2021-02-18 15:29:40,948 - instabot version: 0.117.0 (bot_like) - INFO - Going to like media with hashtag #риэлтор.
+2021-02-18 15:29:46,677 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/риэлтор/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-18 15:29:47,189 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: tags/search/?is_typeahead=true&q=риэлтор&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [200]>
+2021-02-18 15:29:47,192 - instabot version: 0.117.0 (bot_like) - INFO - Going to like 4 medias.
+2021-02-18 15:38:18,766 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511810740568221146_4953362721/info/ returned response: <Response [200]>
+2021-02-18 15:38:19,161 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511810740568221146_4953362721/info/ returned response: <Response [200]>
+2021-02-18 15:38:19,491 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511810740568221146_4953362721/comments/ returned response: <Response [200]>
+2021-02-18 15:45:16,543 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511810213956558242_39465690887/info/ returned response: <Response [200]>
+2021-02-18 15:45:20,252 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511810213956558242_39465690887/info/ returned response: <Response [200]>
+2021-02-18 15:45:20,618 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511810213956558242_39465690887/comments/ returned response: <Response [200]>
+2021-02-18 15:48:41,050 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511809235005645464_32402290871/info/ returned response: <Response [200]>
+2021-02-18 15:48:41,418 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511809235005645464_32402290871/info/ returned response: <Response [200]>
+2021-02-18 15:48:41,772 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511809235005645464_32402290871/comments/ returned response: <Response [200]>
+2021-02-18 15:51:53,133 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511808224128565963_19296132382/info/ returned response: <Response [200]>
+2021-02-18 15:51:53,484 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511808224128565963_19296132382/info/ returned response: <Response [200]>
+2021-02-18 15:51:53,961 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511808224128565963_19296132382/comments/ returned response: <Response [200]>
+2021-02-18 15:52:03,965 - instabot version: 0.117.0 (bot_like) - INFO - DONE: Total liked 0 medias.
+2021-02-18 15:52:03,967 - instabot version: 0.117.0 (bot_like) - INFO - Going to like media with hashtag #россошьфото.
+2021-02-18 15:52:08,805 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошьфото/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [200]>
+2021-02-18 15:52:09,283 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: tags/search/?is_typeahead=true&q=россошьфото&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [200]>
+2021-02-18 15:52:09,285 - instabot version: 0.117.0 (bot_like) - INFO - Going to like 3 medias.
+2021-02-18 16:00:32,726 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511748298631418361_10921437828/info/ returned response: <Response [200]>
+2021-02-18 16:00:33,265 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511748298631418361_10921437828/info/ returned response: <Response [200]>
+2021-02-18 16:00:33,604 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511748298631418361_10921437828/comments/ returned response: <Response [200]>
+2021-02-18 16:04:19,229 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511646536587218927_5987594621/info/ returned response: <Response [400]>
+2021-02-18 16:04:19,229 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/?next=/api/v1/media/2511646536587218927_5987594621/info/","api_path":"/challenge/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail"}'
+2021-02-18 16:04:19,230 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2021-02-18 16:04:19,232 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2021-02-18 16:04:19,233 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2021-02-18 16:10:06,459 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2511638476317750538_1013289181/info/ returned response: <Response [400]>
+2021-02-18 16:10:06,459 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/?next=/api/v1/media/2511638476317750538_1013289181/info/","api_path":"/challenge/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail"}'
+2021-02-18 16:10:06,459 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2021-02-18 16:10:06,461 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2021-02-18 16:10:06,499 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2021-02-18 16:10:16,509 - instabot version: 0.117.0 (bot_like) - INFO - DONE: Total liked 0 medias.
+2021-02-18 16:10:16,530 - instabot version: 0.117.0 (bot_like) - INFO - Going to like media with hashtag #россошьотдых.
+2021-02-18 16:10:16,837 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошьотдых/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [400]>
+2021-02-18 16:10:16,837 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/?next=/api/v1/feed/tag/%2525D1%252580%2525D0%2525BE%2525D1%252581%2525D1%252581%2525D0%2525BE%2525D1%252588%2525D1%25258C%2525D0%2525BE%2525D1%252582%2525D0%2525B4%2525D1%25258B%2525D1%252585/%253Fmax_id%253D%2526rank_token%253D45426233253_33c60f2e-8787-4e0e-a423-171025b5da50%2526ranked_content%253Dtrue%2526","api_path":"/challenge/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail"}'
+2021-02-18 16:10:16,837 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2021-02-18 16:10:16,839 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2021-02-18 16:10:16,872 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2021-02-18 16:10:17,173 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: tags/search/?is_typeahead=true&q=россошьотдых&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [400]>
+2021-02-18 16:10:17,173 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/?next=/api/v1/tags/search/%253Fis_typeahead%253Dtrue%2526q%253D%2525D1%252580%2525D0%2525BE%2525D1%252581%2525D1%252581%2525D0%2525BE%2525D1%252588%2525D1%25258C%2525D0%2525BE%2525D1%252582%2525D0%2525B4%2525D1%25258B%2525D1%252585%2526rank_token%253D45426233253_33c60f2e-8787-4e0e-a423-171025b5da50","api_path":"/challenge/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail"}'
+2021-02-18 16:10:17,174 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2021-02-18 16:10:17,175 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2021-02-18 16:10:17,176 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2021-02-18 16:10:17,178 - instabot version: 0.117.0 (bot_like) - ERROR - NO INFO FOR HASHTAG: россошьотдых
+2021-02-18 16:10:17,179 - instabot version: 0.117.0 (bot_like) - INFO - Going to like media with hashtag #россошьподарки.
+2021-02-18 16:10:17,464 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошьподарки/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [400]>
+2021-02-18 16:10:17,464 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/?next=/api/v1/feed/tag/%2525D1%252580%2525D0%2525BE%2525D1%252581%2525D1%252581%2525D0%2525BE%2525D1%252588%2525D1%25258C%2525D0%2525BF%2525D0%2525BE%2525D0%2525B4%2525D0%2525B0%2525D1%252580%2525D0%2525BA%2525D0%2525B8/%253Fmax_id%253D%2526rank_token%253D45426233253_33c60f2e-8787-4e0e-a423-171025b5da50%2526ranked_content%253Dtrue%2526","api_path":"/challenge/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail"}'
+2021-02-18 16:10:17,464 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2021-02-18 16:10:17,465 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2021-02-18 16:10:17,489 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2021-02-18 16:10:17,779 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: tags/search/?is_typeahead=true&q=россошьподарки&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [400]>
+2021-02-18 16:10:17,779 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/?next=/api/v1/tags/search/%253Fis_typeahead%253Dtrue%2526q%253D%2525D1%252580%2525D0%2525BE%2525D1%252581%2525D1%252581%2525D0%2525BE%2525D1%252588%2525D1%25258C%2525D0%2525BF%2525D0%2525BE%2525D0%2525B4%2525D0%2525B0%2525D1%252580%2525D0%2525BA%2525D0%2525B8%2526rank_token%253D45426233253_33c60f2e-8787-4e0e-a423-171025b5da50","api_path":"/challenge/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail"}'
+2021-02-18 16:10:17,780 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2021-02-18 16:10:17,781 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2021-02-18 16:10:17,782 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2021-02-18 16:10:17,805 - instabot version: 0.117.0 (bot_like) - ERROR - NO INFO FOR HASHTAG: россошьподарки
+2021-02-18 16:10:17,808 - instabot version: 0.117.0 (bot_like) - INFO - Going to like media with hashtag #россошьцветы.
+2021-02-18 16:10:18,121 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошьцветы/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [400]>
+2021-02-18 16:10:18,122 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/?next=/api/v1/feed/tag/%2525D1%252580%2525D0%2525BE%2525D1%252581%2525D1%252581%2525D0%2525BE%2525D1%252588%2525D1%25258C%2525D1%252586%2525D0%2525B2%2525D0%2525B5%2525D1%252582%2525D1%25258B/%253Fmax_id%253D%2526rank_token%253D45426233253_33c60f2e-8787-4e0e-a423-171025b5da50%2526ranked_content%253Dtrue%2526","api_path":"/challenge/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail"}'
+2021-02-18 16:10:18,122 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2021-02-18 16:10:18,123 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2021-02-18 16:10:18,155 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2021-02-18 16:10:18,457 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: tags/search/?is_typeahead=true&q=россошьцветы&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [400]>
+2021-02-18 16:10:18,457 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/?next=/api/v1/tags/search/%253Fis_typeahead%253Dtrue%2526q%253D%2525D1%252580%2525D0%2525BE%2525D1%252581%2525D1%252581%2525D0%2525BE%2525D1%252588%2525D1%25258C%2525D1%252586%2525D0%2525B2%2525D0%2525B5%2525D1%252582%2525D1%25258B%2526rank_token%253D45426233253_33c60f2e-8787-4e0e-a423-171025b5da50","api_path":"/challenge/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail"}'
+2021-02-18 16:10:18,458 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2021-02-18 16:10:18,459 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2021-02-18 16:10:18,460 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2021-02-18 16:10:18,462 - instabot version: 0.117.0 (bot_like) - ERROR - NO INFO FOR HASHTAG: россошьцветы
+2021-02-18 16:10:18,464 - instabot version: 0.117.0 (bot_like) - INFO - Going to like media with hashtag #россошьмастеркласс.
+2021-02-18 16:10:18,785 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошьмастеркласс/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [400]>
+2021-02-18 16:10:18,785 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/?next=/api/v1/feed/tag/%2525D1%252580%2525D0%2525BE%2525D1%252581%2525D1%252581%2525D0%2525BE%2525D1%252588%2525D1%25258C%2525D0%2525BC%2525D0%2525B0%2525D1%252581%2525D1%252582%2525D0%2525B5%2525D1%252580%2525D0%2525BA%2525D0%2525BB%2525D0%2525B0%2525D1%252581%2525D1%252581/%253Fmax_id%253D%2526rank_token%253D45426233253_33c60f2e-8787-4e0e-a423-171025b5da50%2526ranked_content%253Dtrue%2526","api_path":"/challenge/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail"}'
+2021-02-18 16:10:18,786 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2021-02-18 16:10:18,787 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2021-02-18 16:10:18,813 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2021-02-18 16:10:19,104 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: tags/search/?is_typeahead=true&q=россошьмастеркласс&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [400]>
+2021-02-18 16:10:19,104 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/?next=/api/v1/tags/search/%253Fis_typeahead%253Dtrue%2526q%253D%2525D1%252580%2525D0%2525BE%2525D1%252581%2525D1%252581%2525D0%2525BE%2525D1%252588%2525D1%25258C%2525D0%2525BC%2525D0%2525B0%2525D1%252581%2525D1%252582%2525D0%2525B5%2525D1%252580%2525D0%2525BA%2525D0%2525BB%2525D0%2525B0%2525D1%252581%2525D1%252581%2526rank_token%253D45426233253_33c60f2e-8787-4e0e-a423-171025b5da50","api_path":"/challenge/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail"}'
+2021-02-18 16:10:19,104 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2021-02-18 16:10:19,105 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2021-02-18 16:10:19,111 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2021-02-18 16:10:19,112 - instabot version: 0.117.0 (bot_like) - ERROR - NO INFO FOR HASHTAG: россошьмастеркласс
+2021-02-18 16:10:19,114 - instabot version: 0.117.0 (bot_like) - INFO - Going to like media with hashtag #россошькафе.
+2021-02-18 16:10:19,406 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошькафе/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [400]>
+2021-02-18 16:10:19,406 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/?next=/api/v1/feed/tag/%2525D1%252580%2525D0%2525BE%2525D1%252581%2525D1%252581%2525D0%2525BE%2525D1%252588%2525D1%25258C%2525D0%2525BA%2525D0%2525B0%2525D1%252584%2525D0%2525B5/%253Fmax_id%253D%2526rank_token%253D45426233253_33c60f2e-8787-4e0e-a423-171025b5da50%2526ranked_content%253Dtrue%2526","api_path":"/challenge/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail"}'
+2021-02-18 16:10:19,406 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2021-02-18 16:10:19,408 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2021-02-18 16:10:19,446 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2021-02-18 16:10:20,042 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: tags/search/?is_typeahead=true&q=россошькафе&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [400]>
+2021-02-18 16:10:20,042 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/?next=/api/v1/tags/search/%253Fis_typeahead%253Dtrue%2526q%253D%2525D1%252580%2525D0%2525BE%2525D1%252581%2525D1%252581%2525D0%2525BE%2525D1%252588%2525D1%25258C%2525D0%2525BA%2525D0%2525B0%2525D1%252584%2525D0%2525B5%2526rank_token%253D45426233253_33c60f2e-8787-4e0e-a423-171025b5da50","api_path":"/challenge/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail"}'
+2021-02-18 16:10:20,043 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2021-02-18 16:10:20,044 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2021-02-18 16:10:20,046 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2021-02-18 16:10:20,069 - instabot version: 0.117.0 (bot_like) - ERROR - NO INFO FOR HASHTAG: россошькафе
+2021-02-18 16:10:20,077 - instabot version: 0.117.0 (bot_like) - INFO - Going to like media with hashtag #россошьновости.
+2021-02-18 16:10:20,388 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: feed/tag/россошьновости/?max_id=&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50&ranked_content=true& returned response: <Response [400]>
+2021-02-18 16:10:20,388 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/?next=/api/v1/feed/tag/%2525D1%252580%2525D0%2525BE%2525D1%252581%2525D1%252581%2525D0%2525BE%2525D1%252588%2525D1%25258C%2525D0%2525BD%2525D0%2525BE%2525D0%2525B2%2525D0%2525BE%2525D1%252581%2525D1%252582%2525D0%2525B8/%253Fmax_id%253D%2526rank_token%253D45426233253_33c60f2e-8787-4e0e-a423-171025b5da50%2526ranked_content%253Dtrue%2526","api_path":"/challenge/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail"}'
+2021-02-18 16:10:20,389 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2021-02-18 16:10:20,390 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2021-02-18 16:10:20,424 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2021-02-18 16:10:20,721 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: tags/search/?is_typeahead=true&q=россошьновости&rank_token=45426233253_33c60f2e-8787-4e0e-a423-171025b5da50 returned response: <Response [400]>
+2021-02-18 16:10:20,722 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/?next=/api/v1/tags/search/%253Fis_typeahead%253Dtrue%2526q%253D%2525D1%252580%2525D0%2525BE%2525D1%252581%2525D1%252581%2525D0%2525BE%2525D1%252588%2525D1%25258C%2525D0%2525BD%2525D0%2525BE%2525D0%2525B2%2525D0%2525BE%2525D1%252581%2525D1%252582%2525D0%2525B8%2526rank_token%253D45426233253_33c60f2e-8787-4e0e-a423-171025b5da50","api_path":"/challenge/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail"}'
+2021-02-18 16:10:20,722 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2021-02-18 16:10:20,723 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2021-02-18 16:10:20,731 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2021-02-18 16:10:20,732 - instabot version: 0.117.0 (bot_like) - ERROR - NO INFO FOR HASHTAG: россошьновости
+2021-02-18 16:10:20,761 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\proka\iCloudDrive\iCloud~com~omz-software~Pythonista3/config/familyan.rossosh.checkpoint
+2021-02-18 16:10:20,764 - instabot version: 0.117.0 (bot) - INFO - Total follows: 3/97
+2021-02-18 16:10:20,768 - instabot version: 0.117.0 (bot) - INFO - Total unfollows: 3/87
+2021-02-18 16:10:20,790 - instabot version: 0.117.0 (bot) - INFO - Total requests: 507
