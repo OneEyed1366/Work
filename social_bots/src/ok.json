@@ -1,5 +1,7 @@
 {
-    "access_token": "tkn1Un6jRCWdXKVpIOS3GruJDFDgonVbVg56uo9TpicNcQ7P8igjeL6F5VAG8vKvXOPXe",
-    "public_key": "CIAPJBKGDIHBABABA",
-    "secret_key": "34A5ED1F83083166FC6FEF49"
+  "access_token": "tkn1Ig4siqdvB0pddiUMrhltvk92cW2ueevUaJlaLGU42fvyb9c8vY0CBvHerDJIhZ1fg3",
+  "public_key": "CIAPJBKGDIHBABABA",
+  "secret_key": "34A5ED1F83083166FC6FEF49",
+  "session_secret_key": "fff5e3fdcaa36bb6a87e0f654e57d8f8",
+  "id": "512000826887"
 }
